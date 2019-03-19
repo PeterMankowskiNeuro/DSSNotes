@@ -1,0 +1,2110 @@
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m4
+   3              		.eabi_attribute 27, 1
+   4              		.fpu fpv4-sp-d16
+   5              		.eabi_attribute 20, 1
+   6              		.eabi_attribute 21, 1
+   7              		.eabi_attribute 23, 3
+   8              		.eabi_attribute 24, 1
+   9              		.eabi_attribute 25, 1
+  10              		.eabi_attribute 26, 1
+  11              		.eabi_attribute 30, 1
+  12              		.eabi_attribute 34, 1
+  13              		.eabi_attribute 18, 4
+  14              		.thumb
+  15              		.syntax unified
+  16              		.file	"BLE_custom_config.c"
+  17              		.text
+  18              	.Ltext0:
+  19              		.cfi_sections	.debug_frame
+  20              		.global	cy_ble_customConfig
+  21              		.section	.rodata
+  22              		.align	2
+  23              		.type	cy_ble_customs, %object
+  24              		.size	cy_ble_customs, 22
+  25              	cy_ble_customs:
+  26 0000 0E00     		.short	14
+  27 0002 1000     		.short	16
+  28 0004 1100     		.short	17
+  29 0006 1300     		.short	19
+  30 0008 1400     		.short	20
+  31 000a 1600     		.short	22
+  32 000c 1700     		.short	23
+  33 000e 1900     		.short	25
+  34 0010 1A00     		.short	26
+  35 0012 1C00     		.short	28
+  36 0014 1D00     		.short	29
+  37              		.data
+  38              		.align	2
+  39              		.type	cy_ble_customConfig, %object
+  40              		.size	cy_ble_customConfig, 4
+  41              	cy_ble_customConfig:
+  42 0000 00000000 		.word	cy_ble_customs
+  43              		.text
+  44              	.Letext0:
+  45              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+  46              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+  47              		.file 3 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/device/cy_device.h"
+  48              		.file 4 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_stack_host_main.h"
+  49              		.file 5 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_stack_gatt.h"
+  50              		.file 6 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_gap.h"
+  51              		.file 7 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_custom.h"
+  52              		.file 8 "Generated_Source\\PSoC6\\pdl\\cmsis/include/core_cm4.h"
+  53              		.file 9 "Generated_Source\\PSoC6\\BLE_custom_config.c"
+  54              		.section	.debug_info,"",%progbits
+  55              	.Ldebug_info0:
+  56 0000 19070000 		.4byte	0x719
+  57 0004 0400     		.2byte	0x4
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 2
+
+
+  58 0006 00000000 		.4byte	.Ldebug_abbrev0
+  59 000a 04       		.byte	0x4
+  60 000b 01       		.uleb128 0x1
+  61 000c FB050000 		.4byte	.LASF145
+  62 0010 0C       		.byte	0xc
+  63 0011 F5030000 		.4byte	.LASF146
+  64 0015 F9060000 		.4byte	.LASF147
+  65 0019 00000000 		.4byte	.Ldebug_line0
+  66 001d 02       		.uleb128 0x2
+  67 001e 04       		.byte	0x4
+  68 001f 05       		.byte	0x5
+  69 0020 696E7400 		.ascii	"int\000"
+  70 0024 03       		.uleb128 0x3
+  71 0025 04       		.byte	0x4
+  72 0026 07       		.byte	0x7
+  73 0027 60030000 		.4byte	.LASF0
+  74 002b 03       		.uleb128 0x3
+  75 002c 08       		.byte	0x8
+  76 002d 05       		.byte	0x5
+  77 002e 60010000 		.4byte	.LASF1
+  78 0032 03       		.uleb128 0x3
+  79 0033 08       		.byte	0x8
+  80 0034 04       		.byte	0x4
+  81 0035 76080000 		.4byte	.LASF2
+  82 0039 03       		.uleb128 0x3
+  83 003a 01       		.byte	0x1
+  84 003b 06       		.byte	0x6
+  85 003c 6E010000 		.4byte	.LASF3
+  86 0040 04       		.uleb128 0x4
+  87 0041 86000000 		.4byte	.LASF5
+  88 0045 01       		.byte	0x1
+  89 0046 1D       		.byte	0x1d
+  90 0047 4B000000 		.4byte	0x4b
+  91 004b 03       		.uleb128 0x3
+  92 004c 01       		.byte	0x1
+  93 004d 08       		.byte	0x8
+  94 004e B1070000 		.4byte	.LASF4
+  95 0052 04       		.uleb128 0x4
+  96 0053 F7020000 		.4byte	.LASF6
+  97 0057 01       		.byte	0x1
+  98 0058 29       		.byte	0x29
+  99 0059 5D000000 		.4byte	0x5d
+ 100 005d 03       		.uleb128 0x3
+ 101 005e 02       		.byte	0x2
+ 102 005f 05       		.byte	0x5
+ 103 0060 D3070000 		.4byte	.LASF7
+ 104 0064 04       		.uleb128 0x4
+ 105 0065 A1080000 		.4byte	.LASF8
+ 106 0069 01       		.byte	0x1
+ 107 006a 2B       		.byte	0x2b
+ 108 006b 6F000000 		.4byte	0x6f
+ 109 006f 03       		.uleb128 0x3
+ 110 0070 02       		.byte	0x2
+ 111 0071 07       		.byte	0x7
+ 112 0072 13090000 		.4byte	.LASF9
+ 113 0076 04       		.uleb128 0x4
+ 114 0077 D8080000 		.4byte	.LASF10
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 3
+
+
+ 115 007b 01       		.byte	0x1
+ 116 007c 3F       		.byte	0x3f
+ 117 007d 81000000 		.4byte	0x81
+ 118 0081 03       		.uleb128 0x3
+ 119 0082 04       		.byte	0x4
+ 120 0083 05       		.byte	0x5
+ 121 0084 E2010000 		.4byte	.LASF11
+ 122 0088 04       		.uleb128 0x4
+ 123 0089 CD020000 		.4byte	.LASF12
+ 124 008d 01       		.byte	0x1
+ 125 008e 41       		.byte	0x41
+ 126 008f 93000000 		.4byte	0x93
+ 127 0093 03       		.uleb128 0x3
+ 128 0094 04       		.byte	0x4
+ 129 0095 07       		.byte	0x7
+ 130 0096 CF030000 		.4byte	.LASF13
+ 131 009a 03       		.uleb128 0x3
+ 132 009b 08       		.byte	0x8
+ 133 009c 07       		.byte	0x7
+ 134 009d E8000000 		.4byte	.LASF14
+ 135 00a1 03       		.uleb128 0x3
+ 136 00a2 04       		.byte	0x4
+ 137 00a3 07       		.byte	0x7
+ 138 00a4 25050000 		.4byte	.LASF15
+ 139 00a8 03       		.uleb128 0x3
+ 140 00a9 01       		.byte	0x1
+ 141 00aa 08       		.byte	0x8
+ 142 00ab 82080000 		.4byte	.LASF16
+ 143 00af 04       		.uleb128 0x4
+ 144 00b0 D7090000 		.4byte	.LASF17
+ 145 00b4 02       		.byte	0x2
+ 146 00b5 18       		.byte	0x18
+ 147 00b6 40000000 		.4byte	0x40
+ 148 00ba 04       		.uleb128 0x4
+ 149 00bb 58010000 		.4byte	.LASF18
+ 150 00bf 02       		.byte	0x2
+ 151 00c0 20       		.byte	0x20
+ 152 00c1 52000000 		.4byte	0x52
+ 153 00c5 04       		.uleb128 0x4
+ 154 00c6 B4030000 		.4byte	.LASF19
+ 155 00ca 02       		.byte	0x2
+ 156 00cb 24       		.byte	0x24
+ 157 00cc 64000000 		.4byte	0x64
+ 158 00d0 04       		.uleb128 0x4
+ 159 00d1 A9070000 		.4byte	.LASF20
+ 160 00d5 02       		.byte	0x2
+ 161 00d6 2C       		.byte	0x2c
+ 162 00d7 76000000 		.4byte	0x76
+ 163 00db 04       		.uleb128 0x4
+ 164 00dc 6D080000 		.4byte	.LASF21
+ 165 00e0 02       		.byte	0x2
+ 166 00e1 30       		.byte	0x30
+ 167 00e2 88000000 		.4byte	0x88
+ 168 00e6 05       		.uleb128 0x5
+ 169 00e7 B8       		.byte	0xb8
+ 170 00e8 03       		.byte	0x3
+ 171 00e9 34       		.byte	0x34
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 4
+
+
+ 172 00ea F7040000 		.4byte	0x4f7
+ 173 00ee 06       		.uleb128 0x6
+ 174 00ef CF000000 		.4byte	.LASF22
+ 175 00f3 03       		.byte	0x3
+ 176 00f4 37       		.byte	0x37
+ 177 00f5 DB000000 		.4byte	0xdb
+ 178 00f9 00       		.byte	0
+ 179 00fa 06       		.uleb128 0x6
+ 180 00fb C2020000 		.4byte	.LASF23
+ 181 00ff 03       		.byte	0x3
+ 182 0100 38       		.byte	0x38
+ 183 0101 DB000000 		.4byte	0xdb
+ 184 0105 04       		.byte	0x4
+ 185 0106 06       		.uleb128 0x6
+ 186 0107 26020000 		.4byte	.LASF24
+ 187 010b 03       		.byte	0x3
+ 188 010c 39       		.byte	0x39
+ 189 010d DB000000 		.4byte	0xdb
+ 190 0111 08       		.byte	0x8
+ 191 0112 06       		.uleb128 0x6
+ 192 0113 71070000 		.4byte	.LASF25
+ 193 0117 03       		.byte	0x3
+ 194 0118 3A       		.byte	0x3a
+ 195 0119 DB000000 		.4byte	0xdb
+ 196 011d 0C       		.byte	0xc
+ 197 011e 06       		.uleb128 0x6
+ 198 011f 8F010000 		.4byte	.LASF26
+ 199 0123 03       		.byte	0x3
+ 200 0124 3B       		.byte	0x3b
+ 201 0125 DB000000 		.4byte	0xdb
+ 202 0129 10       		.byte	0x10
+ 203 012a 06       		.uleb128 0x6
+ 204 012b D8010000 		.4byte	.LASF27
+ 205 012f 03       		.byte	0x3
+ 206 0130 3C       		.byte	0x3c
+ 207 0131 DB000000 		.4byte	0xdb
+ 208 0135 14       		.byte	0x14
+ 209 0136 06       		.uleb128 0x6
+ 210 0137 EC030000 		.4byte	.LASF28
+ 211 013b 03       		.byte	0x3
+ 212 013c 3D       		.byte	0x3d
+ 213 013d DB000000 		.4byte	0xdb
+ 214 0141 18       		.byte	0x18
+ 215 0142 06       		.uleb128 0x6
+ 216 0143 67000000 		.4byte	.LASF29
+ 217 0147 03       		.byte	0x3
+ 218 0148 3E       		.byte	0x3e
+ 219 0149 DB000000 		.4byte	0xdb
+ 220 014d 1C       		.byte	0x1c
+ 221 014e 06       		.uleb128 0x6
+ 222 014f 410A0000 		.4byte	.LASF30
+ 223 0153 03       		.byte	0x3
+ 224 0154 3F       		.byte	0x3f
+ 225 0155 DB000000 		.4byte	0xdb
+ 226 0159 20       		.byte	0x20
+ 227 015a 06       		.uleb128 0x6
+ 228 015b E3050000 		.4byte	.LASF31
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 5
+
+
+ 229 015f 03       		.byte	0x3
+ 230 0160 40       		.byte	0x40
+ 231 0161 DB000000 		.4byte	0xdb
+ 232 0165 24       		.byte	0x24
+ 233 0166 06       		.uleb128 0x6
+ 234 0167 DA040000 		.4byte	.LASF32
+ 235 016b 03       		.byte	0x3
+ 236 016c 43       		.byte	0x43
+ 237 016d AF000000 		.4byte	0xaf
+ 238 0171 28       		.byte	0x28
+ 239 0172 06       		.uleb128 0x6
+ 240 0173 4D000000 		.4byte	.LASF33
+ 241 0177 03       		.byte	0x3
+ 242 0178 44       		.byte	0x44
+ 243 0179 AF000000 		.4byte	0xaf
+ 244 017d 29       		.byte	0x29
+ 245 017e 06       		.uleb128 0x6
+ 246 017f 370A0000 		.4byte	.LASF34
+ 247 0183 03       		.byte	0x3
+ 248 0184 45       		.byte	0x45
+ 249 0185 AF000000 		.4byte	0xaf
+ 250 0189 2A       		.byte	0x2a
+ 251 018a 06       		.uleb128 0x6
+ 252 018b D5050000 		.4byte	.LASF35
+ 253 018f 03       		.byte	0x3
+ 254 0190 46       		.byte	0x46
+ 255 0191 AF000000 		.4byte	0xaf
+ 256 0195 2B       		.byte	0x2b
+ 257 0196 06       		.uleb128 0x6
+ 258 0197 6A040000 		.4byte	.LASF36
+ 259 019b 03       		.byte	0x3
+ 260 019c 47       		.byte	0x47
+ 261 019d AF000000 		.4byte	0xaf
+ 262 01a1 2C       		.byte	0x2c
+ 263 01a2 06       		.uleb128 0x6
+ 264 01a3 F2080000 		.4byte	.LASF37
+ 265 01a7 03       		.byte	0x3
+ 266 01a8 48       		.byte	0x48
+ 267 01a9 AF000000 		.4byte	0xaf
+ 268 01ad 2D       		.byte	0x2d
+ 269 01ae 06       		.uleb128 0x6
+ 270 01af 98010000 		.4byte	.LASF38
+ 271 01b3 03       		.byte	0x3
+ 272 01b4 49       		.byte	0x49
+ 273 01b5 AF000000 		.4byte	0xaf
+ 274 01b9 2E       		.byte	0x2e
+ 275 01ba 06       		.uleb128 0x6
+ 276 01bb 04050000 		.4byte	.LASF39
+ 277 01bf 03       		.byte	0x3
+ 278 01c0 4A       		.byte	0x4a
+ 279 01c1 AF000000 		.4byte	0xaf
+ 280 01c5 2F       		.byte	0x2f
+ 281 01c6 06       		.uleb128 0x6
+ 282 01c7 87080000 		.4byte	.LASF40
+ 283 01cb 03       		.byte	0x3
+ 284 01cc 4B       		.byte	0x4b
+ 285 01cd AF000000 		.4byte	0xaf
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 6
+
+
+ 286 01d1 30       		.byte	0x30
+ 287 01d2 06       		.uleb128 0x6
+ 288 01d3 E1030000 		.4byte	.LASF41
+ 289 01d7 03       		.byte	0x3
+ 290 01d8 4E       		.byte	0x4e
+ 291 01d9 AF000000 		.4byte	0xaf
+ 292 01dd 31       		.byte	0x31
+ 293 01de 06       		.uleb128 0x6
+ 294 01df 78000000 		.4byte	.LASF42
+ 295 01e3 03       		.byte	0x3
+ 296 01e4 4F       		.byte	0x4f
+ 297 01e5 AF000000 		.4byte	0xaf
+ 298 01e9 32       		.byte	0x32
+ 299 01ea 06       		.uleb128 0x6
+ 300 01eb 54030000 		.4byte	.LASF43
+ 301 01ef 03       		.byte	0x3
+ 302 01f0 50       		.byte	0x50
+ 303 01f1 AF000000 		.4byte	0xaf
+ 304 01f5 33       		.byte	0x33
+ 305 01f6 06       		.uleb128 0x6
+ 306 01f7 39050000 		.4byte	.LASF44
+ 307 01fb 03       		.byte	0x3
+ 308 01fc 51       		.byte	0x51
+ 309 01fd AF000000 		.4byte	0xaf
+ 310 0201 34       		.byte	0x34
+ 311 0202 06       		.uleb128 0x6
+ 312 0203 3D090000 		.4byte	.LASF45
+ 313 0207 03       		.byte	0x3
+ 314 0208 52       		.byte	0x52
+ 315 0209 BA000000 		.4byte	0xba
+ 316 020d 36       		.byte	0x36
+ 317 020e 06       		.uleb128 0x6
+ 318 020f 40020000 		.4byte	.LASF46
+ 319 0213 03       		.byte	0x3
+ 320 0214 53       		.byte	0x53
+ 321 0215 BA000000 		.4byte	0xba
+ 322 0219 38       		.byte	0x38
+ 323 021a 06       		.uleb128 0x6
+ 324 021b 8C090000 		.4byte	.LASF47
+ 325 021f 03       		.byte	0x3
+ 326 0220 54       		.byte	0x54
+ 327 0221 BA000000 		.4byte	0xba
+ 328 0225 3A       		.byte	0x3a
+ 329 0226 06       		.uleb128 0x6
+ 330 0227 280A0000 		.4byte	.LASF48
+ 331 022b 03       		.byte	0x3
+ 332 022c 55       		.byte	0x55
+ 333 022d AF000000 		.4byte	0xaf
+ 334 0231 3C       		.byte	0x3c
+ 335 0232 06       		.uleb128 0x6
+ 336 0233 67020000 		.4byte	.LASF49
+ 337 0237 03       		.byte	0x3
+ 338 0238 56       		.byte	0x56
+ 339 0239 AF000000 		.4byte	0xaf
+ 340 023d 3D       		.byte	0x3d
+ 341 023e 06       		.uleb128 0x6
+ 342 023f 4F080000 		.4byte	.LASF50
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 7
+
+
+ 343 0243 03       		.byte	0x3
+ 344 0244 57       		.byte	0x57
+ 345 0245 AF000000 		.4byte	0xaf
+ 346 0249 3E       		.byte	0x3e
+ 347 024a 06       		.uleb128 0x6
+ 348 024b 5B000000 		.4byte	.LASF51
+ 349 024f 03       		.byte	0x3
+ 350 0250 58       		.byte	0x58
+ 351 0251 AF000000 		.4byte	0xaf
+ 352 0255 3F       		.byte	0x3f
+ 353 0256 06       		.uleb128 0x6
+ 354 0257 EE050000 		.4byte	.LASF52
+ 355 025b 03       		.byte	0x3
+ 356 025c 59       		.byte	0x59
+ 357 025d AF000000 		.4byte	0xaf
+ 358 0261 40       		.byte	0x40
+ 359 0262 06       		.uleb128 0x6
+ 360 0263 E7020000 		.4byte	.LASF53
+ 361 0267 03       		.byte	0x3
+ 362 0268 5A       		.byte	0x5a
+ 363 0269 AF000000 		.4byte	0xaf
+ 364 026d 41       		.byte	0x41
+ 365 026e 06       		.uleb128 0x6
+ 366 026f 86040000 		.4byte	.LASF54
+ 367 0273 03       		.byte	0x3
+ 368 0274 5B       		.byte	0x5b
+ 369 0275 AF000000 		.4byte	0xaf
+ 370 0279 42       		.byte	0x42
+ 371 027a 06       		.uleb128 0x6
+ 372 027b B3050000 		.4byte	.LASF55
+ 373 027f 03       		.byte	0x3
+ 374 0280 5C       		.byte	0x5c
+ 375 0281 AF000000 		.4byte	0xaf
+ 376 0285 43       		.byte	0x43
+ 377 0286 06       		.uleb128 0x6
+ 378 0287 2F020000 		.4byte	.LASF56
+ 379 028b 03       		.byte	0x3
+ 380 028c 5D       		.byte	0x5d
+ 381 028d AF000000 		.4byte	0xaf
+ 382 0291 44       		.byte	0x44
+ 383 0292 06       		.uleb128 0x6
+ 384 0293 00000000 		.4byte	.LASF57
+ 385 0297 03       		.byte	0x3
+ 386 0298 5E       		.byte	0x5e
+ 387 0299 DB000000 		.4byte	0xdb
+ 388 029d 48       		.byte	0x48
+ 389 029e 06       		.uleb128 0x6
+ 390 029f 02020000 		.4byte	.LASF58
+ 391 02a3 03       		.byte	0x3
+ 392 02a4 5F       		.byte	0x5f
+ 393 02a5 DB000000 		.4byte	0xdb
+ 394 02a9 4C       		.byte	0x4c
+ 395 02aa 06       		.uleb128 0x6
+ 396 02ab B70A0000 		.4byte	.LASF59
+ 397 02af 03       		.byte	0x3
+ 398 02b0 60       		.byte	0x60
+ 399 02b1 AF000000 		.4byte	0xaf
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 8
+
+
+ 400 02b5 50       		.byte	0x50
+ 401 02b6 06       		.uleb128 0x6
+ 402 02b7 32010000 		.4byte	.LASF60
+ 403 02bb 03       		.byte	0x3
+ 404 02bc 61       		.byte	0x61
+ 405 02bd AF000000 		.4byte	0xaf
+ 406 02c1 51       		.byte	0x51
+ 407 02c2 06       		.uleb128 0x6
+ 408 02c3 AE060000 		.4byte	.LASF61
+ 409 02c7 03       		.byte	0x3
+ 410 02c8 62       		.byte	0x62
+ 411 02c9 AF000000 		.4byte	0xaf
+ 412 02cd 52       		.byte	0x52
+ 413 02ce 06       		.uleb128 0x6
+ 414 02cf 5F0A0000 		.4byte	.LASF62
+ 415 02d3 03       		.byte	0x3
+ 416 02d4 63       		.byte	0x63
+ 417 02d5 AF000000 		.4byte	0xaf
+ 418 02d9 53       		.byte	0x53
+ 419 02da 06       		.uleb128 0x6
+ 420 02db 5D080000 		.4byte	.LASF63
+ 421 02df 03       		.byte	0x3
+ 422 02e0 64       		.byte	0x64
+ 423 02e1 AF000000 		.4byte	0xaf
+ 424 02e5 54       		.byte	0x54
+ 425 02e6 06       		.uleb128 0x6
+ 426 02e7 44010000 		.4byte	.LASF64
+ 427 02eb 03       		.byte	0x3
+ 428 02ec 65       		.byte	0x65
+ 429 02ed AF000000 		.4byte	0xaf
+ 430 02f1 55       		.byte	0x55
+ 431 02f2 06       		.uleb128 0x6
+ 432 02f3 FF080000 		.4byte	.LASF65
+ 433 02f7 03       		.byte	0x3
+ 434 02f8 66       		.byte	0x66
+ 435 02f9 AF000000 		.4byte	0xaf
+ 436 02fd 56       		.byte	0x56
+ 437 02fe 06       		.uleb128 0x6
+ 438 02ff 0B080000 		.4byte	.LASF66
+ 439 0303 03       		.byte	0x3
+ 440 0304 67       		.byte	0x67
+ 441 0305 AF000000 		.4byte	0xaf
+ 442 0309 57       		.byte	0x57
+ 443 030a 06       		.uleb128 0x6
+ 444 030b 12000000 		.4byte	.LASF67
+ 445 030f 03       		.byte	0x3
+ 446 0310 68       		.byte	0x68
+ 447 0311 AF000000 		.4byte	0xaf
+ 448 0315 58       		.byte	0x58
+ 449 0316 06       		.uleb128 0x6
+ 450 0317 BF070000 		.4byte	.LASF68
+ 451 031b 03       		.byte	0x3
+ 452 031c 69       		.byte	0x69
+ 453 031d AF000000 		.4byte	0xaf
+ 454 0321 59       		.byte	0x59
+ 455 0322 06       		.uleb128 0x6
+ 456 0323 2E050000 		.4byte	.LASF69
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 9
+
+
+ 457 0327 03       		.byte	0x3
+ 458 0328 6E       		.byte	0x6e
+ 459 0329 C5000000 		.4byte	0xc5
+ 460 032d 5A       		.byte	0x5a
+ 461 032e 06       		.uleb128 0x6
+ 462 032f 26090000 		.4byte	.LASF70
+ 463 0333 03       		.byte	0x3
+ 464 0334 6F       		.byte	0x6f
+ 465 0335 C5000000 		.4byte	0xc5
+ 466 0339 5C       		.byte	0x5c
+ 467 033a 06       		.uleb128 0x6
+ 468 033b D9000000 		.4byte	.LASF71
+ 469 033f 03       		.byte	0x3
+ 470 0340 70       		.byte	0x70
+ 471 0341 AF000000 		.4byte	0xaf
+ 472 0345 5E       		.byte	0x5e
+ 473 0346 06       		.uleb128 0x6
+ 474 0347 5B070000 		.4byte	.LASF72
+ 475 034b 03       		.byte	0x3
+ 476 034c 71       		.byte	0x71
+ 477 034d AF000000 		.4byte	0xaf
+ 478 0351 5F       		.byte	0x5f
+ 479 0352 06       		.uleb128 0x6
+ 480 0353 A2050000 		.4byte	.LASF73
+ 481 0357 03       		.byte	0x3
+ 482 0358 72       		.byte	0x72
+ 483 0359 AF000000 		.4byte	0xaf
+ 484 035d 60       		.byte	0x60
+ 485 035e 06       		.uleb128 0x6
+ 486 035f E8060000 		.4byte	.LASF74
+ 487 0363 03       		.byte	0x3
+ 488 0364 73       		.byte	0x73
+ 489 0365 DB000000 		.4byte	0xdb
+ 490 0369 64       		.byte	0x64
+ 491 036a 06       		.uleb128 0x6
+ 492 036b FF000000 		.4byte	.LASF75
+ 493 036f 03       		.byte	0x3
+ 494 0370 76       		.byte	0x76
+ 495 0371 C5000000 		.4byte	0xc5
+ 496 0375 68       		.byte	0x68
+ 497 0376 06       		.uleb128 0x6
+ 498 0377 BD030000 		.4byte	.LASF76
+ 499 037b 03       		.byte	0x3
+ 500 037c 77       		.byte	0x77
+ 501 037d C5000000 		.4byte	0xc5
+ 502 0381 6A       		.byte	0x6a
+ 503 0382 06       		.uleb128 0x6
+ 504 0383 20040000 		.4byte	.LASF77
+ 505 0387 03       		.byte	0x3
+ 506 0388 78       		.byte	0x78
+ 507 0389 C5000000 		.4byte	0xc5
+ 508 038d 6C       		.byte	0x6c
+ 509 038e 06       		.uleb128 0x6
+ 510 038f 5D040000 		.4byte	.LASF78
+ 511 0393 03       		.byte	0x3
+ 512 0394 79       		.byte	0x79
+ 513 0395 C5000000 		.4byte	0xc5
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 10
+
+
+ 514 0399 6E       		.byte	0x6e
+ 515 039a 06       		.uleb128 0x6
+ 516 039b F7070000 		.4byte	.LASF79
+ 517 039f 03       		.byte	0x3
+ 518 03a0 7B       		.byte	0x7b
+ 519 03a1 AF000000 		.4byte	0xaf
+ 520 03a5 70       		.byte	0x70
+ 521 03a6 06       		.uleb128 0x6
+ 522 03a7 7A010000 		.4byte	.LASF80
+ 523 03ab 03       		.byte	0x3
+ 524 03ac 7C       		.byte	0x7c
+ 525 03ad AF000000 		.4byte	0xaf
+ 526 03b1 71       		.byte	0x71
+ 527 03b2 06       		.uleb128 0x6
+ 528 03b3 490A0000 		.4byte	.LASF81
+ 529 03b7 03       		.byte	0x3
+ 530 03b8 7D       		.byte	0x7d
+ 531 03b9 AF000000 		.4byte	0xaf
+ 532 03bd 72       		.byte	0x72
+ 533 03be 06       		.uleb128 0x6
+ 534 03bf 69050000 		.4byte	.LASF82
+ 535 03c3 03       		.byte	0x3
+ 536 03c4 7E       		.byte	0x7e
+ 537 03c5 AF000000 		.4byte	0xaf
+ 538 03c9 73       		.byte	0x73
+ 539 03ca 06       		.uleb128 0x6
+ 540 03cb 72020000 		.4byte	.LASF83
+ 541 03cf 03       		.byte	0x3
+ 542 03d0 80       		.byte	0x80
+ 543 03d1 C5000000 		.4byte	0xc5
+ 544 03d5 74       		.byte	0x74
+ 545 03d6 06       		.uleb128 0x6
+ 546 03d7 C5080000 		.4byte	.LASF84
+ 547 03db 03       		.byte	0x3
+ 548 03dc 81       		.byte	0x81
+ 549 03dd C5000000 		.4byte	0xc5
+ 550 03e1 76       		.byte	0x76
+ 551 03e2 06       		.uleb128 0x6
+ 552 03e3 52020000 		.4byte	.LASF85
+ 553 03e7 03       		.byte	0x3
+ 554 03e8 82       		.byte	0x82
+ 555 03e9 C5000000 		.4byte	0xc5
+ 556 03ed 78       		.byte	0x78
+ 557 03ee 06       		.uleb128 0x6
+ 558 03ef 90000000 		.4byte	.LASF86
+ 559 03f3 03       		.byte	0x3
+ 560 03f4 83       		.byte	0x83
+ 561 03f5 C5000000 		.4byte	0xc5
+ 562 03f9 7A       		.byte	0x7a
+ 563 03fa 06       		.uleb128 0x6
+ 564 03fb F4090000 		.4byte	.LASF87
+ 565 03ff 03       		.byte	0x3
+ 566 0400 86       		.byte	0x86
+ 567 0401 AF000000 		.4byte	0xaf
+ 568 0405 7C       		.byte	0x7c
+ 569 0406 06       		.uleb128 0x6
+ 570 0407 4A090000 		.4byte	.LASF88
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 11
+
+
+ 571 040b 03       		.byte	0x3
+ 572 040c 87       		.byte	0x87
+ 573 040d AF000000 		.4byte	0xaf
+ 574 0411 7D       		.byte	0x7d
+ 575 0412 06       		.uleb128 0x6
+ 576 0413 26000000 		.4byte	.LASF89
+ 577 0417 03       		.byte	0x3
+ 578 0418 88       		.byte	0x88
+ 579 0419 AF000000 		.4byte	0xaf
+ 580 041d 7E       		.byte	0x7e
+ 581 041e 06       		.uleb128 0x6
+ 582 041f AE020000 		.4byte	.LASF90
+ 583 0423 03       		.byte	0x3
+ 584 0424 89       		.byte	0x89
+ 585 0425 AF000000 		.4byte	0xaf
+ 586 0429 7F       		.byte	0x7f
+ 587 042a 06       		.uleb128 0x6
+ 588 042b 40030000 		.4byte	.LASF91
+ 589 042f 03       		.byte	0x3
+ 590 0430 8A       		.byte	0x8a
+ 591 0431 AF000000 		.4byte	0xaf
+ 592 0435 80       		.byte	0x80
+ 593 0436 06       		.uleb128 0x6
+ 594 0437 BD040000 		.4byte	.LASF92
+ 595 043b 03       		.byte	0x3
+ 596 043c 8D       		.byte	0x8d
+ 597 043d DB000000 		.4byte	0xdb
+ 598 0441 84       		.byte	0x84
+ 599 0442 06       		.uleb128 0x6
+ 600 0443 EB010000 		.4byte	.LASF93
+ 601 0447 03       		.byte	0x3
+ 602 0448 8E       		.byte	0x8e
+ 603 0449 DB000000 		.4byte	0xdb
+ 604 044d 88       		.byte	0x88
+ 605 044e 06       		.uleb128 0x6
+ 606 044f DF090000 		.4byte	.LASF94
+ 607 0453 03       		.byte	0x3
+ 608 0454 8F       		.byte	0x8f
+ 609 0455 DB000000 		.4byte	0xdb
+ 610 0459 8C       		.byte	0x8c
+ 611 045a 06       		.uleb128 0x6
+ 612 045b 10050000 		.4byte	.LASF95
+ 613 045f 03       		.byte	0x3
+ 614 0460 90       		.byte	0x90
+ 615 0461 DB000000 		.4byte	0xdb
+ 616 0465 90       		.byte	0x90
+ 617 0466 06       		.uleb128 0x6
+ 618 0467 01030000 		.4byte	.LASF96
+ 619 046b 03       		.byte	0x3
+ 620 046c 91       		.byte	0x91
+ 621 046d DB000000 		.4byte	0xdb
+ 622 0471 94       		.byte	0x94
+ 623 0472 06       		.uleb128 0x6
+ 624 0473 A7040000 		.4byte	.LASF97
+ 625 0477 03       		.byte	0x3
+ 626 0478 92       		.byte	0x92
+ 627 0479 DB000000 		.4byte	0xdb
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 12
+
+
+ 628 047d 98       		.byte	0x98
+ 629 047e 06       		.uleb128 0x6
+ 630 047f 090A0000 		.4byte	.LASF98
+ 631 0483 03       		.byte	0x3
+ 632 0484 93       		.byte	0x93
+ 633 0485 DB000000 		.4byte	0xdb
+ 634 0489 9C       		.byte	0x9c
+ 635 048a 06       		.uleb128 0x6
+ 636 048b 0F010000 		.4byte	.LASF99
+ 637 048f 03       		.byte	0x3
+ 638 0490 94       		.byte	0x94
+ 639 0491 DB000000 		.4byte	0xdb
+ 640 0495 A0       		.byte	0xa0
+ 641 0496 06       		.uleb128 0x6
+ 642 0497 A3010000 		.4byte	.LASF100
+ 643 049b 03       		.byte	0x3
+ 644 049c 95       		.byte	0x95
+ 645 049d C5000000 		.4byte	0xc5
+ 646 04a1 A4       		.byte	0xa4
+ 647 04a2 06       		.uleb128 0x6
+ 648 04a3 92040000 		.4byte	.LASF101
+ 649 04a7 03       		.byte	0x3
+ 650 04a8 96       		.byte	0x96
+ 651 04a9 C5000000 		.4byte	0xc5
+ 652 04ad A6       		.byte	0xa6
+ 653 04ae 06       		.uleb128 0x6
+ 654 04af 4F070000 		.4byte	.LASF102
+ 655 04b3 03       		.byte	0x3
+ 656 04b4 97       		.byte	0x97
+ 657 04b5 C5000000 		.4byte	0xc5
+ 658 04b9 A8       		.byte	0xa8
+ 659 04ba 06       		.uleb128 0x6
+ 660 04bb 93080000 		.4byte	.LASF103
+ 661 04bf 03       		.byte	0x3
+ 662 04c0 98       		.byte	0x98
+ 663 04c1 C5000000 		.4byte	0xc5
+ 664 04c5 AA       		.byte	0xaa
+ 665 04c6 06       		.uleb128 0x6
+ 666 04c7 2F040000 		.4byte	.LASF104
+ 667 04cb 03       		.byte	0x3
+ 668 04cc 99       		.byte	0x99
+ 669 04cd C5000000 		.4byte	0xc5
+ 670 04d1 AC       		.byte	0xac
+ 671 04d2 06       		.uleb128 0x6
+ 672 04d3 80050000 		.4byte	.LASF105
+ 673 04d7 03       		.byte	0x3
+ 674 04d8 9A       		.byte	0x9a
+ 675 04d9 C5000000 		.4byte	0xc5
+ 676 04dd AE       		.byte	0xae
+ 677 04de 06       		.uleb128 0x6
+ 678 04df 2F090000 		.4byte	.LASF106
+ 679 04e3 03       		.byte	0x3
+ 680 04e4 9D       		.byte	0x9d
+ 681 04e5 C5000000 		.4byte	0xc5
+ 682 04e9 B0       		.byte	0xb0
+ 683 04ea 06       		.uleb128 0x6
+ 684 04eb 39000000 		.4byte	.LASF107
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 13
+
+
+ 685 04ef 03       		.byte	0x3
+ 686 04f0 9E       		.byte	0x9e
+ 687 04f1 DB000000 		.4byte	0xdb
+ 688 04f5 B4       		.byte	0xb4
+ 689 04f6 00       		.byte	0
+ 690 04f7 04       		.uleb128 0x4
+ 691 04f8 76040000 		.4byte	.LASF108
+ 692 04fc 03       		.byte	0x3
+ 693 04fd 9F       		.byte	0x9f
+ 694 04fe E6000000 		.4byte	0xe6
+ 695 0502 03       		.uleb128 0x3
+ 696 0503 04       		.byte	0x4
+ 697 0504 04       		.byte	0x4
+ 698 0505 E2060000 		.4byte	.LASF109
+ 699 0509 03       		.uleb128 0x3
+ 700 050a 08       		.byte	0x8
+ 701 050b 04       		.byte	0x4
+ 702 050c 4B020000 		.4byte	.LASF110
+ 703 0510 07       		.uleb128 0x7
+ 704 0511 02       		.byte	0x2
+ 705 0512 04       		.byte	0x4
+ 706 0513 6001     		.2byte	0x160
+ 707 0515 34050000 		.4byte	0x534
+ 708 0519 08       		.uleb128 0x8
+ 709 051a 1F0A0000 		.4byte	.LASF111
+ 710 051e 04       		.byte	0x4
+ 711 051f 6A01     		.2byte	0x16a
+ 712 0521 AF000000 		.4byte	0xaf
+ 713 0525 00       		.byte	0
+ 714 0526 08       		.uleb128 0x8
+ 715 0527 D4040000 		.4byte	.LASF112
+ 716 052b 04       		.byte	0x4
+ 717 052c 6E01     		.2byte	0x16e
+ 718 052e AF000000 		.4byte	0xaf
+ 719 0532 01       		.byte	0x1
+ 720 0533 00       		.byte	0
+ 721 0534 09       		.uleb128 0x9
+ 722 0535 A5000000 		.4byte	.LASF113
+ 723 0539 04       		.byte	0x4
+ 724 053a 7001     		.2byte	0x170
+ 725 053c 10050000 		.4byte	0x510
+ 726 0540 09       		.uleb128 0x9
+ 727 0541 E7040000 		.4byte	.LASF114
+ 728 0545 05       		.byte	0x5
+ 729 0546 7F01     		.2byte	0x17f
+ 730 0548 C5000000 		.4byte	0xc5
+ 731 054c 0A       		.uleb128 0xa
+ 732 054d 01       		.byte	0x1
+ 733 054e 4B000000 		.4byte	0x4b
+ 734 0552 06       		.byte	0x6
+ 735 0553 7E       		.byte	0x7e
+ 736 0554 71050000 		.4byte	0x571
+ 737 0558 0B       		.uleb128 0xb
+ 738 0559 BE090000 		.4byte	.LASF115
+ 739 055d 00       		.byte	0
+ 740 055e 0B       		.uleb128 0xb
+ 741 055f 4A050000 		.4byte	.LASF116
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 14
+
+
+ 742 0563 01       		.byte	0x1
+ 743 0564 0B       		.uleb128 0xb
+ 744 0565 A1090000 		.4byte	.LASF117
+ 745 0569 02       		.byte	0x2
+ 746 056a 0B       		.uleb128 0xb
+ 747 056b B8010000 		.4byte	.LASF118
+ 748 056f 03       		.byte	0x3
+ 749 0570 00       		.byte	0
+ 750 0571 04       		.uleb128 0x4
+ 751 0572 10020000 		.4byte	.LASF119
+ 752 0576 06       		.byte	0x6
+ 753 0577 83       		.byte	0x83
+ 754 0578 4C050000 		.4byte	0x54c
+ 755 057c 0A       		.uleb128 0xa
+ 756 057d 01       		.byte	0x1
+ 757 057e 4B000000 		.4byte	0x4b
+ 758 0582 06       		.byte	0x6
+ 759 0583 87       		.byte	0x87
+ 760 0584 B9050000 		.4byte	0x5b9
+ 761 0588 0B       		.uleb128 0xb
+ 762 0589 5B090000 		.4byte	.LASF120
+ 763 058d 00       		.byte	0
+ 764 058e 0B       		.uleb128 0xb
+ 765 058f 860A0000 		.4byte	.LASF121
+ 766 0593 01       		.byte	0x1
+ 767 0594 0B       		.uleb128 0xb
+ 768 0595 6D030000 		.4byte	.LASF122
+ 769 0599 02       		.byte	0x2
+ 770 059a 0B       		.uleb128 0xb
+ 771 059b 16030000 		.4byte	.LASF123
+ 772 059f 03       		.byte	0x3
+ 773 05a0 0B       		.uleb128 0xb
+ 774 05a1 84020000 		.4byte	.LASF124
+ 775 05a5 04       		.byte	0x4
+ 776 05a6 0B       		.uleb128 0xb
+ 777 05a7 79070000 		.4byte	.LASF125
+ 778 05ab 05       		.byte	0x5
+ 779 05ac 0B       		.uleb128 0xb
+ 780 05ad 89030000 		.4byte	.LASF126
+ 781 05b1 06       		.byte	0x6
+ 782 05b2 0B       		.uleb128 0xb
+ 783 05b3 BE060000 		.4byte	.LASF127
+ 784 05b7 07       		.byte	0x7
+ 785 05b8 00       		.byte	0
+ 786 05b9 04       		.uleb128 0x4
+ 787 05ba BE050000 		.4byte	.LASF128
+ 788 05be 06       		.byte	0x6
+ 789 05bf 90       		.byte	0x90
+ 790 05c0 7C050000 		.4byte	0x57c
+ 791 05c4 03       		.uleb128 0x3
+ 792 05c5 01       		.byte	0x1
+ 793 05c6 02       		.byte	0x2
+ 794 05c7 A3070000 		.4byte	.LASF129
+ 795 05cb 05       		.uleb128 0x5
+ 796 05cc 04       		.byte	0x4
+ 797 05cd 07       		.byte	0x7
+ 798 05ce 3B       		.byte	0x3b
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 15
+
+
+ 799 05cf EC050000 		.4byte	0x5ec
+ 800 05d3 06       		.uleb128 0x6
+ 801 05d4 710A0000 		.4byte	.LASF130
+ 802 05d8 07       		.byte	0x7
+ 803 05d9 3E       		.byte	0x3e
+ 804 05da 40050000 		.4byte	0x540
+ 805 05de 00       		.byte	0
+ 806 05df 06       		.uleb128 0x6
+ 807 05e0 C80A0000 		.4byte	.LASF131
+ 808 05e4 07       		.byte	0x7
+ 809 05e5 41       		.byte	0x41
+ 810 05e6 EC050000 		.4byte	0x5ec
+ 811 05ea 02       		.byte	0x2
+ 812 05eb 00       		.byte	0
+ 813 05ec 0C       		.uleb128 0xc
+ 814 05ed 40050000 		.4byte	0x540
+ 815 05f1 FC050000 		.4byte	0x5fc
+ 816 05f5 0D       		.uleb128 0xd
+ 817 05f6 A1000000 		.4byte	0xa1
+ 818 05fa 00       		.byte	0
+ 819 05fb 00       		.byte	0
+ 820 05fc 04       		.uleb128 0x4
+ 821 05fd DD070000 		.4byte	.LASF132
+ 822 0601 07       		.byte	0x7
+ 823 0602 43       		.byte	0x43
+ 824 0603 CB050000 		.4byte	0x5cb
+ 825 0607 05       		.uleb128 0x5
+ 826 0608 16       		.byte	0x16
+ 827 0609 07       		.byte	0x7
+ 828 060a 46       		.byte	0x46
+ 829 060b 28060000 		.4byte	0x628
+ 830 060f 06       		.uleb128 0x6
+ 831 0610 BE000000 		.4byte	.LASF133
+ 832 0614 07       		.byte	0x7
+ 833 0615 49       		.byte	0x49
+ 834 0616 40050000 		.4byte	0x540
+ 835 061a 00       		.byte	0
+ 836 061b 06       		.uleb128 0x6
+ 837 061c D8020000 		.4byte	.LASF134
+ 838 0620 07       		.byte	0x7
+ 839 0621 4C       		.byte	0x4c
+ 840 0622 28060000 		.4byte	0x628
+ 841 0626 02       		.byte	0x2
+ 842 0627 00       		.byte	0
+ 843 0628 0C       		.uleb128 0xc
+ 844 0629 FC050000 		.4byte	0x5fc
+ 845 062d 38060000 		.4byte	0x638
+ 846 0631 0D       		.uleb128 0xd
+ 847 0632 A1000000 		.4byte	0xa1
+ 848 0636 04       		.byte	0x4
+ 849 0637 00       		.byte	0
+ 850 0638 04       		.uleb128 0x4
+ 851 0639 3A080000 		.4byte	.LASF135
+ 852 063d 07       		.byte	0x7
+ 853 063e 4E       		.byte	0x4e
+ 854 063f 07060000 		.4byte	0x607
+ 855 0643 05       		.uleb128 0x5
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 16
+
+
+ 856 0644 04       		.byte	0x4
+ 857 0645 07       		.byte	0x7
+ 858 0646 90       		.byte	0x90
+ 859 0647 58060000 		.4byte	0x658
+ 860 064b 06       		.uleb128 0x6
+ 861 064c 70000000 		.4byte	.LASF136
+ 862 0650 07       		.byte	0x7
+ 863 0651 94       		.byte	0x94
+ 864 0652 58060000 		.4byte	0x658
+ 865 0656 00       		.byte	0
+ 866 0657 00       		.byte	0
+ 867 0658 0E       		.uleb128 0xe
+ 868 0659 04       		.byte	0x4
+ 869 065a 5E060000 		.4byte	0x65e
+ 870 065e 0F       		.uleb128 0xf
+ 871 065f 38060000 		.4byte	0x638
+ 872 0663 04       		.uleb128 0x4
+ 873 0664 1F080000 		.4byte	.LASF137
+ 874 0668 07       		.byte	0x7
+ 875 0669 9B       		.byte	0x9b
+ 876 066a 43060000 		.4byte	0x643
+ 877 066e 0C       		.uleb128 0xc
+ 878 066f 5E060000 		.4byte	0x65e
+ 879 0673 7E060000 		.4byte	0x67e
+ 880 0677 0D       		.uleb128 0xd
+ 881 0678 A1000000 		.4byte	0xa1
+ 882 067c 00       		.byte	0
+ 883 067d 00       		.byte	0
+ 884 067e 10       		.uleb128 0x10
+ 885 067f 4E040000 		.4byte	.LASF148
+ 886 0683 09       		.byte	0x9
+ 887 0684 1C       		.byte	0x1c
+ 888 0685 8F060000 		.4byte	0x68f
+ 889 0689 05       		.uleb128 0x5
+ 890 068a 03       		.byte	0x3
+ 891 068b 00000000 		.4byte	cy_ble_customs
+ 892 068f 0F       		.uleb128 0xf
+ 893 0690 6E060000 		.4byte	0x66e
+ 894 0694 11       		.uleb128 0x11
+ 895 0695 45070000 		.4byte	.LASF138
+ 896 0699 03       		.byte	0x3
+ 897 069a A7       		.byte	0xa7
+ 898 069b 9F060000 		.4byte	0x69f
+ 899 069f 0E       		.uleb128 0xe
+ 900 06a0 04       		.byte	0x4
+ 901 06a1 A5060000 		.4byte	0x6a5
+ 902 06a5 0F       		.uleb128 0xf
+ 903 06a6 F7040000 		.4byte	0x4f7
+ 904 06aa 12       		.uleb128 0x12
+ 905 06ab 25010000 		.4byte	.LASF139
+ 906 06af 08       		.byte	0x8
+ 907 06b0 F907     		.2byte	0x7f9
+ 908 06b2 B6060000 		.4byte	0x6b6
+ 909 06b6 13       		.uleb128 0x13
+ 910 06b7 D0000000 		.4byte	0xd0
+ 911 06bb 12       		.uleb128 0x12
+ 912 06bc E2080000 		.4byte	.LASF140
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 17
+
+
+ 913 06c0 06       		.byte	0x6
+ 914 06c1 2202     		.2byte	0x222
+ 915 06c3 71050000 		.4byte	0x571
+ 916 06c7 0C       		.uleb128 0xc
+ 917 06c8 34050000 		.4byte	0x534
+ 918 06cc D7060000 		.4byte	0x6d7
+ 919 06d0 0D       		.uleb128 0xd
+ 920 06d1 A1000000 		.4byte	0xa1
+ 921 06d5 00       		.byte	0
+ 922 06d6 00       		.byte	0
+ 923 06d7 12       		.uleb128 0x12
+ 924 06d8 7A090000 		.4byte	.LASF141
+ 925 06dc 06       		.byte	0x6
+ 926 06dd 2C02     		.2byte	0x22c
+ 927 06df C7060000 		.4byte	0x6c7
+ 928 06e3 0C       		.uleb128 0xc
+ 929 06e4 B9050000 		.4byte	0x5b9
+ 930 06e8 F3060000 		.4byte	0x6f3
+ 931 06ec 0D       		.uleb128 0xd
+ 932 06ed A1000000 		.4byte	0xa1
+ 933 06f1 00       		.byte	0
+ 934 06f2 00       		.byte	0
+ 935 06f3 12       		.uleb128 0x12
+ 936 06f4 3D040000 		.4byte	.LASF142
+ 937 06f8 06       		.byte	0x6
+ 938 06f9 2D02     		.2byte	0x22d
+ 939 06fb E3060000 		.4byte	0x6e3
+ 940 06ff 12       		.uleb128 0x12
+ 941 0700 AC080000 		.4byte	.LASF143
+ 942 0704 06       		.byte	0x6
+ 943 0705 5202     		.2byte	0x252
+ 944 0707 AF000000 		.4byte	0xaf
+ 945 070b 14       		.uleb128 0x14
+ 946 070c 8E050000 		.4byte	.LASF144
+ 947 0710 09       		.byte	0x9
+ 948 0711 66       		.byte	0x66
+ 949 0712 63060000 		.4byte	0x663
+ 950 0716 05       		.uleb128 0x5
+ 951 0717 03       		.byte	0x3
+ 952 0718 00000000 		.4byte	cy_ble_customConfig
+ 953 071c 00       		.byte	0
+ 954              		.section	.debug_abbrev,"",%progbits
+ 955              	.Ldebug_abbrev0:
+ 956 0000 01       		.uleb128 0x1
+ 957 0001 11       		.uleb128 0x11
+ 958 0002 01       		.byte	0x1
+ 959 0003 25       		.uleb128 0x25
+ 960 0004 0E       		.uleb128 0xe
+ 961 0005 13       		.uleb128 0x13
+ 962 0006 0B       		.uleb128 0xb
+ 963 0007 03       		.uleb128 0x3
+ 964 0008 0E       		.uleb128 0xe
+ 965 0009 1B       		.uleb128 0x1b
+ 966 000a 0E       		.uleb128 0xe
+ 967 000b 10       		.uleb128 0x10
+ 968 000c 17       		.uleb128 0x17
+ 969 000d 00       		.byte	0
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 18
+
+
+ 970 000e 00       		.byte	0
+ 971 000f 02       		.uleb128 0x2
+ 972 0010 24       		.uleb128 0x24
+ 973 0011 00       		.byte	0
+ 974 0012 0B       		.uleb128 0xb
+ 975 0013 0B       		.uleb128 0xb
+ 976 0014 3E       		.uleb128 0x3e
+ 977 0015 0B       		.uleb128 0xb
+ 978 0016 03       		.uleb128 0x3
+ 979 0017 08       		.uleb128 0x8
+ 980 0018 00       		.byte	0
+ 981 0019 00       		.byte	0
+ 982 001a 03       		.uleb128 0x3
+ 983 001b 24       		.uleb128 0x24
+ 984 001c 00       		.byte	0
+ 985 001d 0B       		.uleb128 0xb
+ 986 001e 0B       		.uleb128 0xb
+ 987 001f 3E       		.uleb128 0x3e
+ 988 0020 0B       		.uleb128 0xb
+ 989 0021 03       		.uleb128 0x3
+ 990 0022 0E       		.uleb128 0xe
+ 991 0023 00       		.byte	0
+ 992 0024 00       		.byte	0
+ 993 0025 04       		.uleb128 0x4
+ 994 0026 16       		.uleb128 0x16
+ 995 0027 00       		.byte	0
+ 996 0028 03       		.uleb128 0x3
+ 997 0029 0E       		.uleb128 0xe
+ 998 002a 3A       		.uleb128 0x3a
+ 999 002b 0B       		.uleb128 0xb
+ 1000 002c 3B       		.uleb128 0x3b
+ 1001 002d 0B       		.uleb128 0xb
+ 1002 002e 49       		.uleb128 0x49
+ 1003 002f 13       		.uleb128 0x13
+ 1004 0030 00       		.byte	0
+ 1005 0031 00       		.byte	0
+ 1006 0032 05       		.uleb128 0x5
+ 1007 0033 13       		.uleb128 0x13
+ 1008 0034 01       		.byte	0x1
+ 1009 0035 0B       		.uleb128 0xb
+ 1010 0036 0B       		.uleb128 0xb
+ 1011 0037 3A       		.uleb128 0x3a
+ 1012 0038 0B       		.uleb128 0xb
+ 1013 0039 3B       		.uleb128 0x3b
+ 1014 003a 0B       		.uleb128 0xb
+ 1015 003b 01       		.uleb128 0x1
+ 1016 003c 13       		.uleb128 0x13
+ 1017 003d 00       		.byte	0
+ 1018 003e 00       		.byte	0
+ 1019 003f 06       		.uleb128 0x6
+ 1020 0040 0D       		.uleb128 0xd
+ 1021 0041 00       		.byte	0
+ 1022 0042 03       		.uleb128 0x3
+ 1023 0043 0E       		.uleb128 0xe
+ 1024 0044 3A       		.uleb128 0x3a
+ 1025 0045 0B       		.uleb128 0xb
+ 1026 0046 3B       		.uleb128 0x3b
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 19
+
+
+ 1027 0047 0B       		.uleb128 0xb
+ 1028 0048 49       		.uleb128 0x49
+ 1029 0049 13       		.uleb128 0x13
+ 1030 004a 38       		.uleb128 0x38
+ 1031 004b 0B       		.uleb128 0xb
+ 1032 004c 00       		.byte	0
+ 1033 004d 00       		.byte	0
+ 1034 004e 07       		.uleb128 0x7
+ 1035 004f 13       		.uleb128 0x13
+ 1036 0050 01       		.byte	0x1
+ 1037 0051 0B       		.uleb128 0xb
+ 1038 0052 0B       		.uleb128 0xb
+ 1039 0053 3A       		.uleb128 0x3a
+ 1040 0054 0B       		.uleb128 0xb
+ 1041 0055 3B       		.uleb128 0x3b
+ 1042 0056 05       		.uleb128 0x5
+ 1043 0057 01       		.uleb128 0x1
+ 1044 0058 13       		.uleb128 0x13
+ 1045 0059 00       		.byte	0
+ 1046 005a 00       		.byte	0
+ 1047 005b 08       		.uleb128 0x8
+ 1048 005c 0D       		.uleb128 0xd
+ 1049 005d 00       		.byte	0
+ 1050 005e 03       		.uleb128 0x3
+ 1051 005f 0E       		.uleb128 0xe
+ 1052 0060 3A       		.uleb128 0x3a
+ 1053 0061 0B       		.uleb128 0xb
+ 1054 0062 3B       		.uleb128 0x3b
+ 1055 0063 05       		.uleb128 0x5
+ 1056 0064 49       		.uleb128 0x49
+ 1057 0065 13       		.uleb128 0x13
+ 1058 0066 38       		.uleb128 0x38
+ 1059 0067 0B       		.uleb128 0xb
+ 1060 0068 00       		.byte	0
+ 1061 0069 00       		.byte	0
+ 1062 006a 09       		.uleb128 0x9
+ 1063 006b 16       		.uleb128 0x16
+ 1064 006c 00       		.byte	0
+ 1065 006d 03       		.uleb128 0x3
+ 1066 006e 0E       		.uleb128 0xe
+ 1067 006f 3A       		.uleb128 0x3a
+ 1068 0070 0B       		.uleb128 0xb
+ 1069 0071 3B       		.uleb128 0x3b
+ 1070 0072 05       		.uleb128 0x5
+ 1071 0073 49       		.uleb128 0x49
+ 1072 0074 13       		.uleb128 0x13
+ 1073 0075 00       		.byte	0
+ 1074 0076 00       		.byte	0
+ 1075 0077 0A       		.uleb128 0xa
+ 1076 0078 04       		.uleb128 0x4
+ 1077 0079 01       		.byte	0x1
+ 1078 007a 0B       		.uleb128 0xb
+ 1079 007b 0B       		.uleb128 0xb
+ 1080 007c 49       		.uleb128 0x49
+ 1081 007d 13       		.uleb128 0x13
+ 1082 007e 3A       		.uleb128 0x3a
+ 1083 007f 0B       		.uleb128 0xb
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 20
+
+
+ 1084 0080 3B       		.uleb128 0x3b
+ 1085 0081 0B       		.uleb128 0xb
+ 1086 0082 01       		.uleb128 0x1
+ 1087 0083 13       		.uleb128 0x13
+ 1088 0084 00       		.byte	0
+ 1089 0085 00       		.byte	0
+ 1090 0086 0B       		.uleb128 0xb
+ 1091 0087 28       		.uleb128 0x28
+ 1092 0088 00       		.byte	0
+ 1093 0089 03       		.uleb128 0x3
+ 1094 008a 0E       		.uleb128 0xe
+ 1095 008b 1C       		.uleb128 0x1c
+ 1096 008c 0B       		.uleb128 0xb
+ 1097 008d 00       		.byte	0
+ 1098 008e 00       		.byte	0
+ 1099 008f 0C       		.uleb128 0xc
+ 1100 0090 01       		.uleb128 0x1
+ 1101 0091 01       		.byte	0x1
+ 1102 0092 49       		.uleb128 0x49
+ 1103 0093 13       		.uleb128 0x13
+ 1104 0094 01       		.uleb128 0x1
+ 1105 0095 13       		.uleb128 0x13
+ 1106 0096 00       		.byte	0
+ 1107 0097 00       		.byte	0
+ 1108 0098 0D       		.uleb128 0xd
+ 1109 0099 21       		.uleb128 0x21
+ 1110 009a 00       		.byte	0
+ 1111 009b 49       		.uleb128 0x49
+ 1112 009c 13       		.uleb128 0x13
+ 1113 009d 2F       		.uleb128 0x2f
+ 1114 009e 0B       		.uleb128 0xb
+ 1115 009f 00       		.byte	0
+ 1116 00a0 00       		.byte	0
+ 1117 00a1 0E       		.uleb128 0xe
+ 1118 00a2 0F       		.uleb128 0xf
+ 1119 00a3 00       		.byte	0
+ 1120 00a4 0B       		.uleb128 0xb
+ 1121 00a5 0B       		.uleb128 0xb
+ 1122 00a6 49       		.uleb128 0x49
+ 1123 00a7 13       		.uleb128 0x13
+ 1124 00a8 00       		.byte	0
+ 1125 00a9 00       		.byte	0
+ 1126 00aa 0F       		.uleb128 0xf
+ 1127 00ab 26       		.uleb128 0x26
+ 1128 00ac 00       		.byte	0
+ 1129 00ad 49       		.uleb128 0x49
+ 1130 00ae 13       		.uleb128 0x13
+ 1131 00af 00       		.byte	0
+ 1132 00b0 00       		.byte	0
+ 1133 00b1 10       		.uleb128 0x10
+ 1134 00b2 34       		.uleb128 0x34
+ 1135 00b3 00       		.byte	0
+ 1136 00b4 03       		.uleb128 0x3
+ 1137 00b5 0E       		.uleb128 0xe
+ 1138 00b6 3A       		.uleb128 0x3a
+ 1139 00b7 0B       		.uleb128 0xb
+ 1140 00b8 3B       		.uleb128 0x3b
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 21
+
+
+ 1141 00b9 0B       		.uleb128 0xb
+ 1142 00ba 49       		.uleb128 0x49
+ 1143 00bb 13       		.uleb128 0x13
+ 1144 00bc 02       		.uleb128 0x2
+ 1145 00bd 18       		.uleb128 0x18
+ 1146 00be 00       		.byte	0
+ 1147 00bf 00       		.byte	0
+ 1148 00c0 11       		.uleb128 0x11
+ 1149 00c1 34       		.uleb128 0x34
+ 1150 00c2 00       		.byte	0
+ 1151 00c3 03       		.uleb128 0x3
+ 1152 00c4 0E       		.uleb128 0xe
+ 1153 00c5 3A       		.uleb128 0x3a
+ 1154 00c6 0B       		.uleb128 0xb
+ 1155 00c7 3B       		.uleb128 0x3b
+ 1156 00c8 0B       		.uleb128 0xb
+ 1157 00c9 49       		.uleb128 0x49
+ 1158 00ca 13       		.uleb128 0x13
+ 1159 00cb 3F       		.uleb128 0x3f
+ 1160 00cc 19       		.uleb128 0x19
+ 1161 00cd 3C       		.uleb128 0x3c
+ 1162 00ce 19       		.uleb128 0x19
+ 1163 00cf 00       		.byte	0
+ 1164 00d0 00       		.byte	0
+ 1165 00d1 12       		.uleb128 0x12
+ 1166 00d2 34       		.uleb128 0x34
+ 1167 00d3 00       		.byte	0
+ 1168 00d4 03       		.uleb128 0x3
+ 1169 00d5 0E       		.uleb128 0xe
+ 1170 00d6 3A       		.uleb128 0x3a
+ 1171 00d7 0B       		.uleb128 0xb
+ 1172 00d8 3B       		.uleb128 0x3b
+ 1173 00d9 05       		.uleb128 0x5
+ 1174 00da 49       		.uleb128 0x49
+ 1175 00db 13       		.uleb128 0x13
+ 1176 00dc 3F       		.uleb128 0x3f
+ 1177 00dd 19       		.uleb128 0x19
+ 1178 00de 3C       		.uleb128 0x3c
+ 1179 00df 19       		.uleb128 0x19
+ 1180 00e0 00       		.byte	0
+ 1181 00e1 00       		.byte	0
+ 1182 00e2 13       		.uleb128 0x13
+ 1183 00e3 35       		.uleb128 0x35
+ 1184 00e4 00       		.byte	0
+ 1185 00e5 49       		.uleb128 0x49
+ 1186 00e6 13       		.uleb128 0x13
+ 1187 00e7 00       		.byte	0
+ 1188 00e8 00       		.byte	0
+ 1189 00e9 14       		.uleb128 0x14
+ 1190 00ea 34       		.uleb128 0x34
+ 1191 00eb 00       		.byte	0
+ 1192 00ec 03       		.uleb128 0x3
+ 1193 00ed 0E       		.uleb128 0xe
+ 1194 00ee 3A       		.uleb128 0x3a
+ 1195 00ef 0B       		.uleb128 0xb
+ 1196 00f0 3B       		.uleb128 0x3b
+ 1197 00f1 0B       		.uleb128 0xb
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 22
+
+
+ 1198 00f2 49       		.uleb128 0x49
+ 1199 00f3 13       		.uleb128 0x13
+ 1200 00f4 3F       		.uleb128 0x3f
+ 1201 00f5 19       		.uleb128 0x19
+ 1202 00f6 02       		.uleb128 0x2
+ 1203 00f7 18       		.uleb128 0x18
+ 1204 00f8 00       		.byte	0
+ 1205 00f9 00       		.byte	0
+ 1206 00fa 00       		.byte	0
+ 1207              		.section	.debug_aranges,"",%progbits
+ 1208 0000 14000000 		.4byte	0x14
+ 1209 0004 0200     		.2byte	0x2
+ 1210 0006 00000000 		.4byte	.Ldebug_info0
+ 1211 000a 04       		.byte	0x4
+ 1212 000b 00       		.byte	0
+ 1213 000c 0000     		.2byte	0
+ 1214 000e 0000     		.2byte	0
+ 1215 0010 00000000 		.4byte	0
+ 1216 0014 00000000 		.4byte	0
+ 1217              		.section	.debug_line,"",%progbits
+ 1218              	.Ldebug_line0:
+ 1219 0000 3F020000 		.section	.debug_str,"MS",%progbits,1
+ 1219      02003902 
+ 1219      00000201 
+ 1219      FB0E0D00 
+ 1219      01010101 
+ 1220              	.LASF57:
+ 1221 0000 70726F74 		.ascii	"protBusMasterMask\000"
+ 1221      4275734D 
+ 1221      61737465 
+ 1221      724D6173 
+ 1221      6B00
+ 1222              	.LASF67:
+ 1223 0012 666C6173 		.ascii	"flashCtlMainWs3Freq\000"
+ 1223      6843746C 
+ 1223      4D61696E 
+ 1223      57733346 
+ 1223      72657100 
+ 1224              	.LASF89:
+ 1225 0026 6770696F 		.ascii	"gpioPrtCfgInOffset\000"
+ 1225      50727443 
+ 1225      6667496E 
+ 1225      4F666673 
+ 1225      657400
+ 1226              	.LASF107:
+ 1227 0039 6970634C 		.ascii	"ipcLockStatusOffset\000"
+ 1227      6F636B53 
+ 1227      74617475 
+ 1227      734F6666 
+ 1227      73657400 
+ 1228              	.LASF33:
+ 1229 004d 63727970 		.ascii	"cryptoVersion\000"
+ 1229      746F5665 
+ 1229      7273696F 
+ 1229      6E00
+ 1230              	.LASF51:
+ 1231 005b 70657269 		.ascii	"periClockNr\000"
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 23
+
+
+ 1231      436C6F63 
+ 1231      6B4E7200 
+ 1232              	.LASF29:
+ 1233 0067 70617373 		.ascii	"passBase\000"
+ 1233      42617365 
+ 1233      00
+ 1234              	.LASF136:
+ 1235 0070 63757374 		.ascii	"customs\000"
+ 1235      6F6D7300 
+ 1236              	.LASF42:
+ 1237 0078 63707573 		.ascii	"cpussIpcIrqNr\000"
+ 1237      73497063 
+ 1237      4972714E 
+ 1237      7200
+ 1238              	.LASF5:
+ 1239 0086 5F5F7569 		.ascii	"__uint8_t\000"
+ 1239      6E74385F 
+ 1239      7400
+ 1240              	.LASF86:
+ 1241 0090 70657269 		.ascii	"periDiv24_5CtlOffset\000"
+ 1241      44697632 
+ 1241      345F3543 
+ 1241      746C4F66 
+ 1241      66736574 
+ 1242              	.LASF113:
+ 1243 00a5 63795F73 		.ascii	"cy_stc_ble_conn_handle_t\000"
+ 1243      74635F62 
+ 1243      6C655F63 
+ 1243      6F6E6E5F 
+ 1243      68616E64 
+ 1244              	.LASF133:
+ 1245 00be 63757374 		.ascii	"customServHandle\000"
+ 1245      6F6D5365 
+ 1245      72764861 
+ 1245      6E646C65 
+ 1245      00
+ 1246              	.LASF22:
+ 1247 00cf 63707573 		.ascii	"cpussBase\000"
+ 1247      73426173 
+ 1247      6500
+ 1248              	.LASF71:
+ 1249 00d9 64774368 		.ascii	"dwChCtlPrioPos\000"
+ 1249      43746C50 
+ 1249      72696F50 
+ 1249      6F7300
+ 1250              	.LASF14:
+ 1251 00e8 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1251      206C6F6E 
+ 1251      6720756E 
+ 1251      7369676E 
+ 1251      65642069 
+ 1252              	.LASF75:
+ 1253 00ff 70657269 		.ascii	"periTrCmdOffset\000"
+ 1253      5472436D 
+ 1253      644F6666 
+ 1253      73657400 
+ 1254              	.LASF99:
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 24
+
+
+ 1255 010f 63707573 		.ascii	"cpussSysTickCtlOffset\000"
+ 1255      73537973 
+ 1255      5469636B 
+ 1255      43746C4F 
+ 1255      66667365 
+ 1256              	.LASF139:
+ 1257 0125 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1257      52784275 
+ 1257      66666572 
+ 1257      00
+ 1258              	.LASF60:
+ 1259 0132 666C6173 		.ascii	"flashPipeRequired\000"
+ 1259      68506970 
+ 1259      65526571 
+ 1259      75697265 
+ 1259      6400
+ 1260              	.LASF64:
+ 1261 0144 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
+ 1261      6843746C 
+ 1261      4D61696E 
+ 1261      57733046 
+ 1261      72657100 
+ 1262              	.LASF18:
+ 1263 0158 696E7431 		.ascii	"int16_t\000"
+ 1263      365F7400 
+ 1264              	.LASF1:
+ 1265 0160 6C6F6E67 		.ascii	"long long int\000"
+ 1265      206C6F6E 
+ 1265      6720696E 
+ 1265      7400
+ 1266              	.LASF3:
+ 1267 016e 7369676E 		.ascii	"signed char\000"
+ 1267      65642063 
+ 1267      68617200 
+ 1268              	.LASF80:
+ 1269 017a 70657269 		.ascii	"periDivCmdTypeSelPos\000"
+ 1269      44697643 
+ 1269      6D645479 
+ 1269      70655365 
+ 1269      6C506F73 
+ 1270              	.LASF26:
+ 1271 018f 70726F74 		.ascii	"protBase\000"
+ 1271      42617365 
+ 1271      00
+ 1272              	.LASF38:
+ 1273 0198 69706356 		.ascii	"ipcVersion\000"
+ 1273      65727369 
+ 1273      6F6E00
+ 1274              	.LASF100:
+ 1275 01a3 63707573 		.ascii	"cpussCm0NmiCtlOffset\000"
+ 1275      73436D30 
+ 1275      4E6D6943 
+ 1275      746C4F66 
+ 1275      66736574 
+ 1276              	.LASF118:
+ 1277 01b8 43595F42 		.ascii	"CY_BLE_ADV_STATE_STOP_INITIATED\000"
+ 1277      4C455F41 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 25
+
+
+ 1277      44565F53 
+ 1277      54415445 
+ 1277      5F53544F 
+ 1278              	.LASF27:
+ 1279 01d8 6873696F 		.ascii	"hsiomBase\000"
+ 1279      6D426173 
+ 1279      6500
+ 1280              	.LASF11:
+ 1281 01e2 6C6F6E67 		.ascii	"long int\000"
+ 1281      20696E74 
+ 1281      00
+ 1282              	.LASF93:
+ 1283 01eb 63707573 		.ascii	"cpussCm4ClockCtlOffset\000"
+ 1283      73436D34 
+ 1283      436C6F63 
+ 1283      6B43746C 
+ 1283      4F666673 
+ 1284              	.LASF58:
+ 1285 0202 63727970 		.ascii	"cryptoMemSize\000"
+ 1285      746F4D65 
+ 1285      6D53697A 
+ 1285      6500
+ 1286              	.LASF119:
+ 1287 0210 63795F65 		.ascii	"cy_en_ble_adv_state_t\000"
+ 1287      6E5F626C 
+ 1287      655F6164 
+ 1287      765F7374 
+ 1287      6174655F 
+ 1288              	.LASF24:
+ 1289 0226 70657269 		.ascii	"periBase\000"
+ 1289      42617365 
+ 1289      00
+ 1290              	.LASF56:
+ 1291 022f 73797350 		.ascii	"sysPmSimoPresent\000"
+ 1291      6D53696D 
+ 1291      6F507265 
+ 1291      73656E74 
+ 1291      00
+ 1292              	.LASF46:
+ 1293 0240 63707573 		.ascii	"cpussFmIrq\000"
+ 1293      73466D49 
+ 1293      727100
+ 1294              	.LASF110:
+ 1295 024b 646F7562 		.ascii	"double\000"
+ 1295      6C6500
+ 1296              	.LASF85:
+ 1297 0252 70657269 		.ascii	"periDiv16_5CtlOffset\000"
+ 1297      44697631 
+ 1297      365F3543 
+ 1297      746C4F66 
+ 1297      66736574 
+ 1298              	.LASF49:
+ 1299 0267 73727373 		.ascii	"srssNumPll\000"
+ 1299      4E756D50 
+ 1299      6C6C00
+ 1300              	.LASF83:
+ 1301 0272 70657269 		.ascii	"periDiv8CtlOffset\000"
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 26
+
+
+ 1301      44697638 
+ 1301      43746C4F 
+ 1301      66667365 
+ 1301      7400
+ 1302              	.LASF124:
+ 1303 0284 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_INCL_DISCOVERING\000"
+ 1303      4C455F43 
+ 1303      4F4E4E5F 
+ 1303      53544154 
+ 1303      455F434C 
+ 1304              	.LASF90:
+ 1305 02ae 6770696F 		.ascii	"gpioPrtCfgOutOffset\000"
+ 1305      50727443 
+ 1305      66674F75 
+ 1305      744F6666 
+ 1305      73657400 
+ 1306              	.LASF23:
+ 1307 02c2 666C6173 		.ascii	"flashcBase\000"
+ 1307      68634261 
+ 1307      736500
+ 1308              	.LASF12:
+ 1309 02cd 5F5F7569 		.ascii	"__uint32_t\000"
+ 1309      6E743332 
+ 1309      5F7400
+ 1310              	.LASF134:
+ 1311 02d8 63757374 		.ascii	"customServInfo\000"
+ 1311      6F6D5365 
+ 1311      7276496E 
+ 1311      666F00
+ 1312              	.LASF53:
+ 1313 02e7 70617373 		.ascii	"passSarChannels\000"
+ 1313      53617243 
+ 1313      68616E6E 
+ 1313      656C7300 
+ 1314              	.LASF6:
+ 1315 02f7 5F5F696E 		.ascii	"__int16_t\000"
+ 1315      7431365F 
+ 1315      7400
+ 1316              	.LASF96:
+ 1317 0301 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
+ 1317      73436D34 
+ 1317      50777243 
+ 1317      746C4F66 
+ 1317      66736574 
+ 1318              	.LASF123:
+ 1319 0316 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_SRVC_DISCOVERING\000"
+ 1319      4C455F43 
+ 1319      4F4E4E5F 
+ 1319      53544154 
+ 1319      455F434C 
+ 1320              	.LASF91:
+ 1321 0340 6770696F 		.ascii	"gpioPrtCfgSioOffset\000"
+ 1321      50727443 
+ 1321      66675369 
+ 1321      6F4F6666 
+ 1321      73657400 
+ 1322              	.LASF43:
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 27
+
+
+ 1323 0354 63707573 		.ascii	"cpussDwChNr\000"
+ 1323      73447743 
+ 1323      684E7200 
+ 1324              	.LASF0:
+ 1325 0360 756E7369 		.ascii	"unsigned int\000"
+ 1325      676E6564 
+ 1325      20696E74 
+ 1325      00
+ 1326              	.LASF122:
+ 1327 036d 43595F42 		.ascii	"CY_BLE_CONN_STATE_CONNECTED\000"
+ 1327      4C455F43 
+ 1327      4F4E4E5F 
+ 1327      53544154 
+ 1327      455F434F 
+ 1328              	.LASF126:
+ 1329 0389 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DESCR_DISCOVERING\000"
+ 1329      4C455F43 
+ 1329      4F4E4E5F 
+ 1329      53544154 
+ 1329      455F434C 
+ 1330              	.LASF19:
+ 1331 03b4 75696E74 		.ascii	"uint16_t\000"
+ 1331      31365F74 
+ 1331      00
+ 1332              	.LASF76:
+ 1333 03bd 70657269 		.ascii	"periTrCmdGrSelMsk\000"
+ 1333      5472436D 
+ 1333      64477253 
+ 1333      656C4D73 
+ 1333      6B00
+ 1334              	.LASF13:
+ 1335 03cf 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1335      20756E73 
+ 1335      69676E65 
+ 1335      6420696E 
+ 1335      7400
+ 1336              	.LASF41:
+ 1337 03e1 63707573 		.ascii	"cpussIpcNr\000"
+ 1337      73497063 
+ 1337      4E7200
+ 1338              	.LASF28:
+ 1339 03ec 6770696F 		.ascii	"gpioBase\000"
+ 1339      42617365 
+ 1339      00
+ 1340              	.LASF146:
+ 1341 03f5 47656E65 		.ascii	"Generated_Source\\PSoC6\\BLE_custom_config.c\000"
+ 1341      72617465 
+ 1341      645F536F 
+ 1341      75726365 
+ 1341      5C50536F 
+ 1342              	.LASF77:
+ 1343 0420 70657269 		.ascii	"periTrGrOffset\000"
+ 1343      54724772 
+ 1343      4F666673 
+ 1343      657400
+ 1344              	.LASF104:
+ 1345 042f 63707573 		.ascii	"cpussRam1Ctl0\000"
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 28
+
+
+ 1345      7352616D 
+ 1345      3143746C 
+ 1345      3000
+ 1346              	.LASF142:
+ 1347 043d 63795F62 		.ascii	"cy_ble_connState\000"
+ 1347      6C655F63 
+ 1347      6F6E6E53 
+ 1347      74617465 
+ 1347      00
+ 1348              	.LASF148:
+ 1349 044e 63795F62 		.ascii	"cy_ble_customs\000"
+ 1349      6C655F63 
+ 1349      7573746F 
+ 1349      6D7300
+ 1350              	.LASF78:
+ 1351 045d 70657269 		.ascii	"periTrGrSize\000"
+ 1351      54724772 
+ 1351      53697A65 
+ 1351      00
+ 1352              	.LASF36:
+ 1353 046a 6770696F 		.ascii	"gpioVersion\000"
+ 1353      56657273 
+ 1353      696F6E00 
+ 1354              	.LASF108:
+ 1355 0476 63795F73 		.ascii	"cy_stc_device_t\000"
+ 1355      74635F64 
+ 1355      65766963 
+ 1355      655F7400 
+ 1356              	.LASF54:
+ 1357 0486 65704D6F 		.ascii	"epMonitorNr\000"
+ 1357      6E69746F 
+ 1357      724E7200 
+ 1358              	.LASF101:
+ 1359 0492 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
+ 1359      73436D34 
+ 1359      4E6D6943 
+ 1359      746C4F66 
+ 1359      66736574 
+ 1360              	.LASF97:
+ 1361 04a7 63707573 		.ascii	"cpussTrimRamCtlOffset\000"
+ 1361      73547269 
+ 1361      6D52616D 
+ 1361      43746C4F 
+ 1361      66667365 
+ 1362              	.LASF92:
+ 1363 04bd 63707573 		.ascii	"cpussCm0ClockCtlOffset\000"
+ 1363      73436D30 
+ 1363      436C6F63 
+ 1363      6B43746C 
+ 1363      4F666673 
+ 1364              	.LASF112:
+ 1365 04d4 61747449 		.ascii	"attId\000"
+ 1365      6400
+ 1366              	.LASF32:
+ 1367 04da 63707573 		.ascii	"cpussVersion\000"
+ 1367      73566572 
+ 1367      73696F6E 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 29
+
+
+ 1367      00
+ 1368              	.LASF114:
+ 1369 04e7 63795F62 		.ascii	"cy_ble_gatt_db_attr_handle_t\000"
+ 1369      6C655F67 
+ 1369      6174745F 
+ 1369      64625F61 
+ 1369      7474725F 
+ 1370              	.LASF39:
+ 1371 0504 70657269 		.ascii	"periVersion\000"
+ 1371      56657273 
+ 1371      696F6E00 
+ 1372              	.LASF95:
+ 1373 0510 63707573 		.ascii	"cpussCm0StatusOffset\000"
+ 1373      73436D30 
+ 1373      53746174 
+ 1373      75734F66 
+ 1373      66736574 
+ 1374              	.LASF15:
+ 1375 0525 73697A65 		.ascii	"sizetype\000"
+ 1375      74797065 
+ 1375      00
+ 1376              	.LASF69:
+ 1377 052e 64774368 		.ascii	"dwChOffset\000"
+ 1377      4F666673 
+ 1377      657400
+ 1378              	.LASF44:
+ 1379 0539 63707573 		.ascii	"cpussFlashPaSize\000"
+ 1379      73466C61 
+ 1379      73685061 
+ 1379      53697A65 
+ 1379      00
+ 1380              	.LASF116:
+ 1381 054a 43595F42 		.ascii	"CY_BLE_ADV_STATE_ADV_INITIATED\000"
+ 1381      4C455F41 
+ 1381      44565F53 
+ 1381      54415445 
+ 1381      5F414456 
+ 1382              	.LASF82:
+ 1383 0569 70657269 		.ascii	"periDivCmdPaTypeSelPos\000"
+ 1383      44697643 
+ 1383      6D645061 
+ 1383      54797065 
+ 1383      53656C50 
+ 1384              	.LASF105:
+ 1385 0580 63707573 		.ascii	"cpussRam2Ctl0\000"
+ 1385      7352616D 
+ 1385      3243746C 
+ 1385      3000
+ 1386              	.LASF144:
+ 1387 058e 63795F62 		.ascii	"cy_ble_customConfig\000"
+ 1387      6C655F63 
+ 1387      7573746F 
+ 1387      6D436F6E 
+ 1387      66696700 
+ 1388              	.LASF73:
+ 1389 05a2 64775374 		.ascii	"dwStatusChIdxPos\000"
+ 1389      61747573 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 30
+
+
+ 1389      43684964 
+ 1389      78506F73 
+ 1389      00
+ 1390              	.LASF55:
+ 1391 05b3 75646250 		.ascii	"udbPresent\000"
+ 1391      72657365 
+ 1391      6E7400
+ 1392              	.LASF128:
+ 1393 05be 63795F65 		.ascii	"cy_en_ble_conn_state_t\000"
+ 1393      6E5F626C 
+ 1393      655F636F 
+ 1393      6E6E5F73 
+ 1393      74617465 
+ 1394              	.LASF35:
+ 1395 05d5 666C6173 		.ascii	"flashcVersion\000"
+ 1395      68635665 
+ 1395      7273696F 
+ 1395      6E00
+ 1396              	.LASF31:
+ 1397 05e3 63727970 		.ascii	"cryptoBase\000"
+ 1397      746F4261 
+ 1397      736500
+ 1398              	.LASF52:
+ 1399 05ee 736D6966 		.ascii	"smifDeviceNr\000"
+ 1399      44657669 
+ 1399      63654E72 
+ 1399      00
+ 1400              	.LASF145:
+ 1401 05fb 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1401      43313120 
+ 1401      352E342E 
+ 1401      31203230 
+ 1401      31363036 
+ 1402 062e 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 1402      20726576 
+ 1402      6973696F 
+ 1402      6E203233 
+ 1402      37373135 
+ 1403 0661 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
+ 1403      70202D6D 
+ 1403      6670753D 
+ 1403      66707634 
+ 1403      2D73702D 
+ 1404 0694 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 1404      6F6E7320 
+ 1404      2D666661 
+ 1404      742D6C74 
+ 1404      6F2D6F62 
+ 1405              	.LASF61:
+ 1406 06ae 666C6173 		.ascii	"flashWriteDelay\000"
+ 1406      68577269 
+ 1406      74654465 
+ 1406      6C617900 
+ 1407              	.LASF127:
+ 1408 06be 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DISCOVERED\000"
+ 1408      4C455F43 
+ 1408      4F4E4E5F 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 31
+
+
+ 1408      53544154 
+ 1408      455F434C 
+ 1409              	.LASF109:
+ 1410 06e2 666C6F61 		.ascii	"float\000"
+ 1410      7400
+ 1411              	.LASF74:
+ 1412 06e8 64775374 		.ascii	"dwStatusChIdxMsk\000"
+ 1412      61747573 
+ 1412      43684964 
+ 1412      784D736B 
+ 1412      00
+ 1413              	.LASF147:
+ 1414 06f9 433A5C55 		.ascii	"C:\\Users\\seeho\\Documents\\PSoC Creator\\PSoC6_10"
+ 1414      73657273 
+ 1414      5C736565 
+ 1414      686F5C44 
+ 1414      6F63756D 
+ 1415 0727 315C4E6F 		.ascii	"1\\Novela-BLE-Controls-1.cydsn\000"
+ 1415      76656C61 
+ 1415      2D424C45 
+ 1415      2D436F6E 
+ 1415      74726F6C 
+ 1416              	.LASF138:
+ 1417 0745 63795F64 		.ascii	"cy_device\000"
+ 1417      65766963 
+ 1417      6500
+ 1418              	.LASF102:
+ 1419 074f 63707573 		.ascii	"cpussRomCtl\000"
+ 1419      73526F6D 
+ 1419      43746C00 
+ 1420              	.LASF72:
+ 1421 075b 64774368 		.ascii	"dwChCtlPreemptablePos\000"
+ 1421      43746C50 
+ 1421      7265656D 
+ 1421      70746162 
+ 1421      6C65506F 
+ 1422              	.LASF25:
+ 1423 0771 75646242 		.ascii	"udbBase\000"
+ 1423      61736500 
+ 1424              	.LASF125:
+ 1425 0779 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_CHAR_DISCOVERING\000"
+ 1425      4C455F43 
+ 1425      4F4E4E5F 
+ 1425      53544154 
+ 1425      455F434C 
+ 1426              	.LASF129:
+ 1427 07a3 5F426F6F 		.ascii	"_Bool\000"
+ 1427      6C00
+ 1428              	.LASF20:
+ 1429 07a9 696E7433 		.ascii	"int32_t\000"
+ 1429      325F7400 
+ 1430              	.LASF4:
+ 1431 07b1 756E7369 		.ascii	"unsigned char\000"
+ 1431      676E6564 
+ 1431      20636861 
+ 1431      7200
+ 1432              	.LASF68:
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 32
+
+
+ 1433 07bf 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
+ 1433      6843746C 
+ 1433      4D61696E 
+ 1433      57733446 
+ 1433      72657100 
+ 1434              	.LASF7:
+ 1435 07d3 73686F72 		.ascii	"short int\000"
+ 1435      7420696E 
+ 1435      7400
+ 1436              	.LASF132:
+ 1437 07dd 63795F73 		.ascii	"cy_stc_ble_customs_info_t\000"
+ 1437      74635F62 
+ 1437      6C655F63 
+ 1437      7573746F 
+ 1437      6D735F69 
+ 1438              	.LASF79:
+ 1439 07f7 70657269 		.ascii	"periDivCmdDivSelMsk\000"
+ 1439      44697643 
+ 1439      6D644469 
+ 1439      7653656C 
+ 1439      4D736B00 
+ 1440              	.LASF66:
+ 1441 080b 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
+ 1441      6843746C 
+ 1441      4D61696E 
+ 1441      57733246 
+ 1441      72657100 
+ 1442              	.LASF137:
+ 1443 081f 63795F73 		.ascii	"cy_stc_ble_custom_config_t\000"
+ 1443      74635F62 
+ 1443      6C655F63 
+ 1443      7573746F 
+ 1443      6D5F636F 
+ 1444              	.LASF135:
+ 1445 083a 63795F73 		.ascii	"cy_stc_ble_customs_t\000"
+ 1445      74635F62 
+ 1445      6C655F63 
+ 1445      7573746F 
+ 1445      6D735F74 
+ 1446              	.LASF50:
+ 1447 084f 73727373 		.ascii	"srssNumHfroot\000"
+ 1447      4E756D48 
+ 1447      66726F6F 
+ 1447      7400
+ 1448              	.LASF63:
+ 1449 085d 666C6173 		.ascii	"flashEraseDelay\000"
+ 1449      68457261 
+ 1449      73654465 
+ 1449      6C617900 
+ 1450              	.LASF21:
+ 1451 086d 75696E74 		.ascii	"uint32_t\000"
+ 1451      33325F74 
+ 1451      00
+ 1452              	.LASF2:
+ 1453 0876 6C6F6E67 		.ascii	"long double\000"
+ 1453      20646F75 
+ 1453      626C6500 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 33
+
+
+ 1454              	.LASF16:
+ 1455 0882 63686172 		.ascii	"char\000"
+ 1455      00
+ 1456              	.LASF40:
+ 1457 0887 70726F74 		.ascii	"protVersion\000"
+ 1457      56657273 
+ 1457      696F6E00 
+ 1458              	.LASF103:
+ 1459 0893 63707573 		.ascii	"cpussRam0Ctl0\000"
+ 1459      7352616D 
+ 1459      3043746C 
+ 1459      3000
+ 1460              	.LASF8:
+ 1461 08a1 5F5F7569 		.ascii	"__uint16_t\000"
+ 1461      6E743136 
+ 1461      5F7400
+ 1462              	.LASF143:
+ 1463 08ac 63795F62 		.ascii	"cy_ble_pendingFlashWrite\000"
+ 1463      6C655F70 
+ 1463      656E6469 
+ 1463      6E67466C 
+ 1463      61736857 
+ 1464              	.LASF84:
+ 1465 08c5 70657269 		.ascii	"periDiv16CtlOffset\000"
+ 1465      44697631 
+ 1465      3643746C 
+ 1465      4F666673 
+ 1465      657400
+ 1466              	.LASF10:
+ 1467 08d8 5F5F696E 		.ascii	"__int32_t\000"
+ 1467      7433325F 
+ 1467      7400
+ 1468              	.LASF140:
+ 1469 08e2 63795F62 		.ascii	"cy_ble_advState\000"
+ 1469      6C655F61 
+ 1469      64765374 
+ 1469      61746500 
+ 1470              	.LASF37:
+ 1471 08f2 6873696F 		.ascii	"hsiomVersion\000"
+ 1471      6D566572 
+ 1471      73696F6E 
+ 1471      00
+ 1472              	.LASF65:
+ 1473 08ff 666C6173 		.ascii	"flashCtlMainWs1Freq\000"
+ 1473      6843746C 
+ 1473      4D61696E 
+ 1473      57733146 
+ 1473      72657100 
+ 1474              	.LASF9:
+ 1475 0913 73686F72 		.ascii	"short unsigned int\000"
+ 1475      7420756E 
+ 1475      7369676E 
+ 1475      65642069 
+ 1475      6E7400
+ 1476              	.LASF70:
+ 1477 0926 64774368 		.ascii	"dwChSize\000"
+ 1477      53697A65 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 34
+
+
+ 1477      00
+ 1478              	.LASF106:
+ 1479 092f 69706353 		.ascii	"ipcStructSize\000"
+ 1479      74727563 
+ 1479      7453697A 
+ 1479      6500
+ 1480              	.LASF45:
+ 1481 093d 63707573 		.ascii	"cpussIpc0Irq\000"
+ 1481      73497063 
+ 1481      30497271 
+ 1481      00
+ 1482              	.LASF88:
+ 1483 094a 6770696F 		.ascii	"gpioPrtCfgOffset\000"
+ 1483      50727443 
+ 1483      66674F66 
+ 1483      66736574 
+ 1483      00
+ 1484              	.LASF120:
+ 1485 095b 43595F42 		.ascii	"CY_BLE_CONN_STATE_DISCONNECTED\000"
+ 1485      4C455F43 
+ 1485      4F4E4E5F 
+ 1485      53544154 
+ 1485      455F4449 
+ 1486              	.LASF141:
+ 1487 097a 63795F62 		.ascii	"cy_ble_connHandle\000"
+ 1487      6C655F63 
+ 1487      6F6E6E48 
+ 1487      616E646C 
+ 1487      6500
+ 1488              	.LASF47:
+ 1489 098c 63707573 		.ascii	"cpussNotConnectedIrq\000"
+ 1489      734E6F74 
+ 1489      436F6E6E 
+ 1489      65637465 
+ 1489      64497271 
+ 1490              	.LASF117:
+ 1491 09a1 43595F42 		.ascii	"CY_BLE_ADV_STATE_ADVERTISING\000"
+ 1491      4C455F41 
+ 1491      44565F53 
+ 1491      54415445 
+ 1491      5F414456 
+ 1492              	.LASF115:
+ 1493 09be 43595F42 		.ascii	"CY_BLE_ADV_STATE_STOPPED\000"
+ 1493      4C455F41 
+ 1493      44565F53 
+ 1493      54415445 
+ 1493      5F53544F 
+ 1494              	.LASF17:
+ 1495 09d7 75696E74 		.ascii	"uint8_t\000"
+ 1495      385F7400 
+ 1496              	.LASF94:
+ 1497 09df 63707573 		.ascii	"cpussCm4StatusOffset\000"
+ 1497      73436D34 
+ 1497      53746174 
+ 1497      75734F66 
+ 1497      66736574 
+ 1498              	.LASF87:
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 35
+
+
+ 1499 09f4 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
+ 1499      50727449 
+ 1499      6E747243 
+ 1499      66674F66 
+ 1499      66736574 
+ 1500              	.LASF98:
+ 1501 0a09 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
+ 1501      73547269 
+ 1501      6D526F6D 
+ 1501      43746C4F 
+ 1501      66667365 
+ 1502              	.LASF111:
+ 1503 0a1f 62644861 		.ascii	"bdHandle\000"
+ 1503      6E646C65 
+ 1503      00
+ 1504              	.LASF48:
+ 1505 0a28 73727373 		.ascii	"srssNumClkpath\000"
+ 1505      4E756D43 
+ 1505      6C6B7061 
+ 1505      746800
+ 1506              	.LASF34:
+ 1507 0a37 64775665 		.ascii	"dwVersion\000"
+ 1507      7273696F 
+ 1507      6E00
+ 1508              	.LASF30:
+ 1509 0a41 69706342 		.ascii	"ipcBase\000"
+ 1509      61736500 
+ 1510              	.LASF81:
+ 1511 0a49 70657269 		.ascii	"periDivCmdPaDivSelPos\000"
+ 1511      44697643 
+ 1511      6D645061 
+ 1511      44697653 
+ 1511      656C506F 
+ 1512              	.LASF62:
+ 1513 0a5f 666C6173 		.ascii	"flashProgramDelay\000"
+ 1513      6850726F 
+ 1513      6772616D 
+ 1513      44656C61 
+ 1513      7900
+ 1514              	.LASF130:
+ 1515 0a71 63757374 		.ascii	"customServCharHandle\000"
+ 1515      6F6D5365 
+ 1515      72764368 
+ 1515      61724861 
+ 1515      6E646C65 
+ 1516              	.LASF121:
+ 1517 0a86 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DISCONNECTED_DISCOVERED\000"
+ 1517      4C455F43 
+ 1517      4F4E4E5F 
+ 1517      53544154 
+ 1517      455F434C 
+ 1518              	.LASF59:
+ 1519 0ab7 666C6173 		.ascii	"flashRwwRequired\000"
+ 1519      68527777 
+ 1519      52657175 
+ 1519      69726564 
+ 1519      00
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\cc8ZmPD4.s 			page 36
+
+
+ 1520              	.LASF131:
+ 1521 0ac8 63757374 		.ascii	"customServCharDesc\000"
+ 1521      6F6D5365 
+ 1521      72764368 
+ 1521      61724465 
+ 1521      736300
+ 1522              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

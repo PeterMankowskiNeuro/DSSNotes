@@ -1,0 +1,2208 @@
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m4
+   3              		.eabi_attribute 27, 1
+   4              		.fpu fpv4-sp-d16
+   5              		.eabi_attribute 20, 1
+   6              		.eabi_attribute 21, 1
+   7              		.eabi_attribute 23, 3
+   8              		.eabi_attribute 24, 1
+   9              		.eabi_attribute 25, 1
+  10              		.eabi_attribute 26, 1
+  11              		.eabi_attribute 30, 1
+  12              		.eabi_attribute 34, 1
+  13              		.eabi_attribute 18, 4
+  14              		.thumb
+  15              		.syntax unified
+  16              		.file	"BLE_dis_config.c"
+  17              		.text
+  18              	.Ltext0:
+  19              		.cfi_sections	.debug_frame
+  20              		.global	cy_ble_disConfig
+  21              		.section	.rodata
+  22              		.align	2
+  23              		.type	cy_ble_diss, %object
+  24              		.size	cy_ble_diss, 20
+  25              	cy_ble_diss:
+  26 0000 1100     		.short	17
+  27 0002 1300     		.short	19
+  28 0004 1500     		.short	21
+  29 0006 1B00     		.short	27
+  30 0008 1700     		.short	23
+  31 000a 1900     		.short	25
+  32 000c 1D00     		.short	29
+  33 000e 1F00     		.short	31
+  34 0010 0000     		.short	0
+  35 0012 0000     		.short	0
+  36              		.data
+  37              		.align	2
+  38              		.type	cy_ble_disConfig, %object
+  39              		.size	cy_ble_disConfig, 8
+  40              	cy_ble_disConfig:
+  41 0000 00000000 		.word	cy_ble_diss
+  42 0004 00000000 		.word	0
+  43              		.text
+  44              	.Letext0:
+  45              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+  46              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+  47              		.file 3 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/device/cy_device.h"
+  48              		.file 4 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_stack_host_main.h"
+  49              		.file 5 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_stack_gatt.h"
+  50              		.file 6 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_gap.h"
+  51              		.file 7 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble.h"
+  52              		.file 8 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_dis.h"
+  53              		.file 9 "Generated_Source\\PSoC6\\pdl\\cmsis/include/core_cm4.h"
+  54              		.file 10 "Generated_Source\\PSoC6\\BLE_dis_config.c"
+  55              		.section	.debug_info,"",%progbits
+  56              	.Ldebug_info0:
+  57 0000 40070000 		.4byte	0x740
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 2
+
+
+  58 0004 0400     		.2byte	0x4
+  59 0006 00000000 		.4byte	.Ldebug_abbrev0
+  60 000a 04       		.byte	0x4
+  61 000b 01       		.uleb128 0x1
+  62 000c 87060000 		.4byte	.LASF154
+  63 0010 0C       		.byte	0xc
+  64 0011 36050000 		.4byte	.LASF155
+  65 0015 3D080000 		.4byte	.LASF156
+  66 0019 00000000 		.4byte	.Ldebug_line0
+  67 001d 02       		.uleb128 0x2
+  68 001e 04       		.byte	0x4
+  69 001f 05       		.byte	0x5
+  70 0020 696E7400 		.ascii	"int\000"
+  71 0024 03       		.uleb128 0x3
+  72 0025 04       		.byte	0x4
+  73 0026 07       		.byte	0x7
+  74 0027 89030000 		.4byte	.LASF0
+  75 002b 03       		.uleb128 0x3
+  76 002c 08       		.byte	0x8
+  77 002d 05       		.byte	0x5
+  78 002e 47010000 		.4byte	.LASF1
+  79 0032 03       		.uleb128 0x3
+  80 0033 08       		.byte	0x8
+  81 0034 04       		.byte	0x4
+  82 0035 E6080000 		.4byte	.LASF2
+  83 0039 03       		.uleb128 0x3
+  84 003a 01       		.byte	0x1
+  85 003b 06       		.byte	0x6
+  86 003c 55010000 		.4byte	.LASF3
+  87 0040 04       		.uleb128 0x4
+  88 0041 7E000000 		.4byte	.LASF5
+  89 0045 01       		.byte	0x1
+  90 0046 1D       		.byte	0x1d
+  91 0047 4B000000 		.4byte	0x4b
+  92 004b 03       		.uleb128 0x3
+  93 004c 01       		.byte	0x1
+  94 004d 08       		.byte	0x8
+  95 004e FE070000 		.4byte	.LASF4
+  96 0052 04       		.uleb128 0x4
+  97 0053 20030000 		.4byte	.LASF6
+  98 0057 01       		.byte	0x1
+  99 0058 29       		.byte	0x29
+ 100 0059 5D000000 		.4byte	0x5d
+ 101 005d 03       		.uleb128 0x3
+ 102 005e 02       		.byte	0x2
+ 103 005f 05       		.byte	0x5
+ 104 0060 DE040000 		.4byte	.LASF7
+ 105 0064 04       		.uleb128 0x4
+ 106 0065 1D090000 		.4byte	.LASF8
+ 107 0069 01       		.byte	0x1
+ 108 006a 2B       		.byte	0x2b
+ 109 006b 6F000000 		.4byte	0x6f
+ 110 006f 03       		.uleb128 0x3
+ 111 0070 02       		.byte	0x2
+ 112 0071 07       		.byte	0x7
+ 113 0072 AC090000 		.4byte	.LASF9
+ 114 0076 04       		.uleb128 0x4
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 3
+
+
+ 115 0077 6D090000 		.4byte	.LASF10
+ 116 007b 01       		.byte	0x1
+ 117 007c 3F       		.byte	0x3f
+ 118 007d 81000000 		.4byte	0x81
+ 119 0081 03       		.uleb128 0x3
+ 120 0082 04       		.byte	0x4
+ 121 0083 05       		.byte	0x5
+ 122 0084 F6010000 		.4byte	.LASF11
+ 123 0088 04       		.uleb128 0x4
+ 124 0089 05030000 		.4byte	.LASF12
+ 125 008d 01       		.byte	0x1
+ 126 008e 41       		.byte	0x41
+ 127 008f 93000000 		.4byte	0x93
+ 128 0093 03       		.uleb128 0x3
+ 129 0094 04       		.byte	0x4
+ 130 0095 07       		.byte	0x7
+ 131 0096 0C040000 		.4byte	.LASF13
+ 132 009a 03       		.uleb128 0x3
+ 133 009b 08       		.byte	0x8
+ 134 009c 07       		.byte	0x7
+ 135 009d CF000000 		.4byte	.LASF14
+ 136 00a1 03       		.uleb128 0x3
+ 137 00a2 04       		.byte	0x4
+ 138 00a3 07       		.byte	0x7
+ 139 00a4 AF050000 		.4byte	.LASF15
+ 140 00a8 05       		.uleb128 0x5
+ 141 00a9 04       		.byte	0x4
+ 142 00aa 03       		.uleb128 0x3
+ 143 00ab 01       		.byte	0x1
+ 144 00ac 08       		.byte	0x8
+ 145 00ad F2080000 		.4byte	.LASF16
+ 146 00b1 04       		.uleb128 0x4
+ 147 00b2 9C0A0000 		.4byte	.LASF17
+ 148 00b6 02       		.byte	0x2
+ 149 00b7 18       		.byte	0x18
+ 150 00b8 40000000 		.4byte	0x40
+ 151 00bc 04       		.uleb128 0x4
+ 152 00bd 3F010000 		.4byte	.LASF18
+ 153 00c1 02       		.byte	0x2
+ 154 00c2 20       		.byte	0x20
+ 155 00c3 52000000 		.4byte	0x52
+ 156 00c7 04       		.uleb128 0x4
+ 157 00c8 DD030000 		.4byte	.LASF19
+ 158 00cc 02       		.byte	0x2
+ 159 00cd 24       		.byte	0x24
+ 160 00ce 64000000 		.4byte	0x64
+ 161 00d2 04       		.uleb128 0x4
+ 162 00d3 F6070000 		.4byte	.LASF20
+ 163 00d7 02       		.byte	0x2
+ 164 00d8 2C       		.byte	0x2c
+ 165 00d9 76000000 		.4byte	0x76
+ 166 00dd 04       		.uleb128 0x4
+ 167 00de DD080000 		.4byte	.LASF21
+ 168 00e2 02       		.byte	0x2
+ 169 00e3 30       		.byte	0x30
+ 170 00e4 88000000 		.4byte	0x88
+ 171 00e8 06       		.uleb128 0x6
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 4
+
+
+ 172 00e9 B8       		.byte	0xb8
+ 173 00ea 03       		.byte	0x3
+ 174 00eb 34       		.byte	0x34
+ 175 00ec F9040000 		.4byte	0x4f9
+ 176 00f0 07       		.uleb128 0x7
+ 177 00f1 B6000000 		.4byte	.LASF22
+ 178 00f5 03       		.byte	0x3
+ 179 00f6 37       		.byte	0x37
+ 180 00f7 DD000000 		.4byte	0xdd
+ 181 00fb 00       		.byte	0
+ 182 00fc 07       		.uleb128 0x7
+ 183 00fd FA020000 		.4byte	.LASF23
+ 184 0101 03       		.byte	0x3
+ 185 0102 38       		.byte	0x38
+ 186 0103 DD000000 		.4byte	0xdd
+ 187 0107 04       		.byte	0x4
+ 188 0108 07       		.uleb128 0x7
+ 189 0109 4C020000 		.4byte	.LASF24
+ 190 010d 03       		.byte	0x3
+ 191 010e 39       		.byte	0x39
+ 192 010f DD000000 		.4byte	0xdd
+ 193 0113 08       		.byte	0x8
+ 194 0114 07       		.uleb128 0x7
+ 195 0115 B1070000 		.4byte	.LASF25
+ 196 0119 03       		.byte	0x3
+ 197 011a 3A       		.byte	0x3a
+ 198 011b DD000000 		.4byte	0xdd
+ 199 011f 0C       		.byte	0xc
+ 200 0120 07       		.uleb128 0x7
+ 201 0121 76010000 		.4byte	.LASF26
+ 202 0125 03       		.byte	0x3
+ 203 0126 3B       		.byte	0x3b
+ 204 0127 DD000000 		.4byte	0xdd
+ 205 012b 10       		.byte	0x10
+ 206 012c 07       		.uleb128 0x7
+ 207 012d BF010000 		.4byte	.LASF27
+ 208 0131 03       		.byte	0x3
+ 209 0132 3C       		.byte	0x3c
+ 210 0133 DD000000 		.4byte	0xdd
+ 211 0137 14       		.byte	0x14
+ 212 0138 07       		.uleb128 0x7
+ 213 0139 41040000 		.4byte	.LASF28
+ 214 013d 03       		.byte	0x3
+ 215 013e 3D       		.byte	0x3d
+ 216 013f DD000000 		.4byte	0xdd
+ 217 0143 18       		.byte	0x18
+ 218 0144 07       		.uleb128 0x7
+ 219 0145 67000000 		.4byte	.LASF29
+ 220 0149 03       		.byte	0x3
+ 221 014a 3E       		.byte	0x3e
+ 222 014b DD000000 		.4byte	0xdd
+ 223 014f 1C       		.byte	0x1c
+ 224 0150 07       		.uleb128 0x7
+ 225 0151 1E0B0000 		.4byte	.LASF30
+ 226 0155 03       		.byte	0x3
+ 227 0156 3F       		.byte	0x3f
+ 228 0157 DD000000 		.4byte	0xdd
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 5
+
+
+ 229 015b 20       		.byte	0x20
+ 230 015c 07       		.uleb128 0x7
+ 231 015d 6F060000 		.4byte	.LASF31
+ 232 0161 03       		.byte	0x3
+ 233 0162 40       		.byte	0x40
+ 234 0163 DD000000 		.4byte	0xdd
+ 235 0167 24       		.byte	0x24
+ 236 0168 07       		.uleb128 0x7
+ 237 0169 64050000 		.4byte	.LASF32
+ 238 016d 03       		.byte	0x3
+ 239 016e 43       		.byte	0x43
+ 240 016f B1000000 		.4byte	0xb1
+ 241 0173 28       		.byte	0x28
+ 242 0174 07       		.uleb128 0x7
+ 243 0175 4D000000 		.4byte	.LASF33
+ 244 0179 03       		.byte	0x3
+ 245 017a 44       		.byte	0x44
+ 246 017b B1000000 		.4byte	0xb1
+ 247 017f 29       		.byte	0x29
+ 248 0180 07       		.uleb128 0x7
+ 249 0181 140B0000 		.4byte	.LASF34
+ 250 0185 03       		.byte	0x3
+ 251 0186 45       		.byte	0x45
+ 252 0187 B1000000 		.4byte	0xb1
+ 253 018b 2A       		.byte	0x2a
+ 254 018c 07       		.uleb128 0x7
+ 255 018d 61060000 		.4byte	.LASF35
+ 256 0191 03       		.byte	0x3
+ 257 0192 46       		.byte	0x46
+ 258 0193 B1000000 		.4byte	0xb1
+ 259 0197 2B       		.byte	0x2b
+ 260 0198 07       		.uleb128 0x7
+ 261 0199 C2040000 		.4byte	.LASF36
+ 262 019d 03       		.byte	0x3
+ 263 019e 47       		.byte	0x47
+ 264 019f B1000000 		.4byte	0xb1
+ 265 01a3 2C       		.byte	0x2c
+ 266 01a4 07       		.uleb128 0x7
+ 267 01a5 87090000 		.4byte	.LASF37
+ 268 01a9 03       		.byte	0x3
+ 269 01aa 48       		.byte	0x48
+ 270 01ab B1000000 		.4byte	0xb1
+ 271 01af 2D       		.byte	0x2d
+ 272 01b0 07       		.uleb128 0x7
+ 273 01b1 7F010000 		.4byte	.LASF38
+ 274 01b5 03       		.byte	0x3
+ 275 01b6 49       		.byte	0x49
+ 276 01b7 B1000000 		.4byte	0xb1
+ 277 01bb 2E       		.byte	0x2e
+ 278 01bc 07       		.uleb128 0x7
+ 279 01bd 8E050000 		.4byte	.LASF39
+ 280 01c1 03       		.byte	0x3
+ 281 01c2 4A       		.byte	0x4a
+ 282 01c3 B1000000 		.4byte	0xb1
+ 283 01c7 2F       		.byte	0x2f
+ 284 01c8 07       		.uleb128 0x7
+ 285 01c9 F7080000 		.4byte	.LASF40
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 6
+
+
+ 286 01cd 03       		.byte	0x3
+ 287 01ce 4B       		.byte	0x4b
+ 288 01cf B1000000 		.4byte	0xb1
+ 289 01d3 30       		.byte	0x30
+ 290 01d4 07       		.uleb128 0x7
+ 291 01d5 36040000 		.4byte	.LASF41
+ 292 01d9 03       		.byte	0x3
+ 293 01da 4E       		.byte	0x4e
+ 294 01db B1000000 		.4byte	0xb1
+ 295 01df 31       		.byte	0x31
+ 296 01e0 07       		.uleb128 0x7
+ 297 01e1 70000000 		.4byte	.LASF42
+ 298 01e5 03       		.byte	0x3
+ 299 01e6 4F       		.byte	0x4f
+ 300 01e7 B1000000 		.4byte	0xb1
+ 301 01eb 32       		.byte	0x32
+ 302 01ec 07       		.uleb128 0x7
+ 303 01ed 7D030000 		.4byte	.LASF43
+ 304 01f1 03       		.byte	0x3
+ 305 01f2 50       		.byte	0x50
+ 306 01f3 B1000000 		.4byte	0xb1
+ 307 01f7 33       		.byte	0x33
+ 308 01f8 07       		.uleb128 0x7
+ 309 01f9 D9050000 		.4byte	.LASF44
+ 310 01fd 03       		.byte	0x3
+ 311 01fe 51       		.byte	0x51
+ 312 01ff B1000000 		.4byte	0xb1
+ 313 0203 34       		.byte	0x34
+ 314 0204 07       		.uleb128 0x7
+ 315 0205 F4090000 		.4byte	.LASF45
+ 316 0209 03       		.byte	0x3
+ 317 020a 52       		.byte	0x52
+ 318 020b BC000000 		.4byte	0xbc
+ 319 020f 36       		.byte	0x36
+ 320 0210 07       		.uleb128 0x7
+ 321 0211 78020000 		.4byte	.LASF46
+ 322 0215 03       		.byte	0x3
+ 323 0216 53       		.byte	0x53
+ 324 0217 BC000000 		.4byte	0xbc
+ 325 021b 38       		.byte	0x38
+ 326 021c 07       		.uleb128 0x7
+ 327 021d 510A0000 		.4byte	.LASF47
+ 328 0221 03       		.byte	0x3
+ 329 0222 54       		.byte	0x54
+ 330 0223 BC000000 		.4byte	0xbc
+ 331 0227 3A       		.byte	0x3a
+ 332 0228 07       		.uleb128 0x7
+ 333 0229 050B0000 		.4byte	.LASF48
+ 334 022d 03       		.byte	0x3
+ 335 022e 55       		.byte	0x55
+ 336 022f B1000000 		.4byte	0xb1
+ 337 0233 3C       		.byte	0x3c
+ 338 0234 07       		.uleb128 0x7
+ 339 0235 9F020000 		.4byte	.LASF49
+ 340 0239 03       		.byte	0x3
+ 341 023a 56       		.byte	0x56
+ 342 023b B1000000 		.4byte	0xb1
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 7
+
+
+ 343 023f 3D       		.byte	0x3d
+ 344 0240 07       		.uleb128 0x7
+ 345 0241 BF080000 		.4byte	.LASF50
+ 346 0245 03       		.byte	0x3
+ 347 0246 57       		.byte	0x57
+ 348 0247 B1000000 		.4byte	0xb1
+ 349 024b 3E       		.byte	0x3e
+ 350 024c 07       		.uleb128 0x7
+ 351 024d 5B000000 		.4byte	.LASF51
+ 352 0251 03       		.byte	0x3
+ 353 0252 58       		.byte	0x58
+ 354 0253 B1000000 		.4byte	0xb1
+ 355 0257 3F       		.byte	0x3f
+ 356 0258 07       		.uleb128 0x7
+ 357 0259 7A060000 		.4byte	.LASF52
+ 358 025d 03       		.byte	0x3
+ 359 025e 59       		.byte	0x59
+ 360 025f B1000000 		.4byte	0xb1
+ 361 0263 40       		.byte	0x40
+ 362 0264 07       		.uleb128 0x7
+ 363 0265 10030000 		.4byte	.LASF53
+ 364 0269 03       		.byte	0x3
+ 365 026a 5A       		.byte	0x5a
+ 366 026b B1000000 		.4byte	0xb1
+ 367 026f 41       		.byte	0x41
+ 368 0270 07       		.uleb128 0x7
+ 369 0271 E8040000 		.4byte	.LASF54
+ 370 0275 03       		.byte	0x3
+ 371 0276 5B       		.byte	0x5b
+ 372 0277 B1000000 		.4byte	0xb1
+ 373 027b 42       		.byte	0x42
+ 374 027c 07       		.uleb128 0x7
+ 375 027d 3F060000 		.4byte	.LASF55
+ 376 0281 03       		.byte	0x3
+ 377 0282 5C       		.byte	0x5c
+ 378 0283 B1000000 		.4byte	0xb1
+ 379 0287 43       		.byte	0x43
+ 380 0288 07       		.uleb128 0x7
+ 381 0289 55020000 		.4byte	.LASF56
+ 382 028d 03       		.byte	0x3
+ 383 028e 5D       		.byte	0x5d
+ 384 028f B1000000 		.4byte	0xb1
+ 385 0293 44       		.byte	0x44
+ 386 0294 07       		.uleb128 0x7
+ 387 0295 00000000 		.4byte	.LASF57
+ 388 0299 03       		.byte	0x3
+ 389 029a 5E       		.byte	0x5e
+ 390 029b DD000000 		.4byte	0xdd
+ 391 029f 48       		.byte	0x48
+ 392 02a0 07       		.uleb128 0x7
+ 393 02a1 28020000 		.4byte	.LASF58
+ 394 02a5 03       		.byte	0x3
+ 395 02a6 5F       		.byte	0x5f
+ 396 02a7 DD000000 		.4byte	0xdd
+ 397 02ab 4C       		.byte	0x4c
+ 398 02ac 07       		.uleb128 0x7
+ 399 02ad 7F0B0000 		.4byte	.LASF59
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 8
+
+
+ 400 02b1 03       		.byte	0x3
+ 401 02b2 60       		.byte	0x60
+ 402 02b3 B1000000 		.4byte	0xb1
+ 403 02b7 50       		.byte	0x50
+ 404 02b8 07       		.uleb128 0x7
+ 405 02b9 19010000 		.4byte	.LASF60
+ 406 02bd 03       		.byte	0x3
+ 407 02be 61       		.byte	0x61
+ 408 02bf B1000000 		.4byte	0xb1
+ 409 02c3 51       		.byte	0x51
+ 410 02c4 07       		.uleb128 0x7
+ 411 02c5 3A070000 		.4byte	.LASF61
+ 412 02c9 03       		.byte	0x3
+ 413 02ca 62       		.byte	0x62
+ 414 02cb B1000000 		.4byte	0xb1
+ 415 02cf 52       		.byte	0x52
+ 416 02d0 07       		.uleb128 0x7
+ 417 02d1 3C0B0000 		.4byte	.LASF62
+ 418 02d5 03       		.byte	0x3
+ 419 02d6 63       		.byte	0x63
+ 420 02d7 B1000000 		.4byte	0xb1
+ 421 02db 53       		.byte	0x53
+ 422 02dc 07       		.uleb128 0x7
+ 423 02dd CD080000 		.4byte	.LASF63
+ 424 02e1 03       		.byte	0x3
+ 425 02e2 64       		.byte	0x64
+ 426 02e3 B1000000 		.4byte	0xb1
+ 427 02e7 54       		.byte	0x54
+ 428 02e8 07       		.uleb128 0x7
+ 429 02e9 2B010000 		.4byte	.LASF64
+ 430 02ed 03       		.byte	0x3
+ 431 02ee 65       		.byte	0x65
+ 432 02ef B1000000 		.4byte	0xb1
+ 433 02f3 55       		.byte	0x55
+ 434 02f4 07       		.uleb128 0x7
+ 435 02f5 F8030000 		.4byte	.LASF65
+ 436 02f9 03       		.byte	0x3
+ 437 02fa 66       		.byte	0x66
+ 438 02fb B1000000 		.4byte	0xb1
+ 439 02ff 56       		.byte	0x56
+ 440 0300 07       		.uleb128 0x7
+ 441 0301 4A040000 		.4byte	.LASF66
+ 442 0305 03       		.byte	0x3
+ 443 0306 67       		.byte	0x67
+ 444 0307 B1000000 		.4byte	0xb1
+ 445 030b 57       		.byte	0x57
+ 446 030c 07       		.uleb128 0x7
+ 447 030d 12000000 		.4byte	.LASF67
+ 448 0311 03       		.byte	0x3
+ 449 0312 68       		.byte	0x68
+ 450 0313 B1000000 		.4byte	0xb1
+ 451 0317 58       		.byte	0x58
+ 452 0318 07       		.uleb128 0x7
+ 453 0319 0C080000 		.4byte	.LASF68
+ 454 031d 03       		.byte	0x3
+ 455 031e 69       		.byte	0x69
+ 456 031f B1000000 		.4byte	0xb1
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 9
+
+
+ 457 0323 59       		.byte	0x59
+ 458 0324 07       		.uleb128 0x7
+ 459 0325 B8050000 		.4byte	.LASF69
+ 460 0329 03       		.byte	0x3
+ 461 032a 6E       		.byte	0x6e
+ 462 032b C7000000 		.4byte	0xc7
+ 463 032f 5A       		.byte	0x5a
+ 464 0330 07       		.uleb128 0x7
+ 465 0331 BF090000 		.4byte	.LASF70
+ 466 0335 03       		.byte	0x3
+ 467 0336 6F       		.byte	0x6f
+ 468 0337 C7000000 		.4byte	0xc7
+ 469 033b 5C       		.byte	0x5c
+ 470 033c 07       		.uleb128 0x7
+ 471 033d C0000000 		.4byte	.LASF71
+ 472 0341 03       		.byte	0x3
+ 473 0342 70       		.byte	0x70
+ 474 0343 B1000000 		.4byte	0xb1
+ 475 0347 5E       		.byte	0x5e
+ 476 0348 07       		.uleb128 0x7
+ 477 0349 9B070000 		.4byte	.LASF72
+ 478 034d 03       		.byte	0x3
+ 479 034e 71       		.byte	0x71
+ 480 034f B1000000 		.4byte	0xb1
+ 481 0353 5F       		.byte	0x5f
+ 482 0354 07       		.uleb128 0x7
+ 483 0355 2E060000 		.4byte	.LASF73
+ 484 0359 03       		.byte	0x3
+ 485 035a 72       		.byte	0x72
+ 486 035b B1000000 		.4byte	0xb1
+ 487 035f 60       		.byte	0x60
+ 488 0360 07       		.uleb128 0x7
+ 489 0361 74070000 		.4byte	.LASF74
+ 490 0365 03       		.byte	0x3
+ 491 0366 73       		.byte	0x73
+ 492 0367 DD000000 		.4byte	0xdd
+ 493 036b 64       		.byte	0x64
+ 494 036c 07       		.uleb128 0x7
+ 495 036d E6000000 		.4byte	.LASF75
+ 496 0371 03       		.byte	0x3
+ 497 0372 76       		.byte	0x76
+ 498 0373 C7000000 		.4byte	0xc7
+ 499 0377 68       		.byte	0x68
+ 500 0378 07       		.uleb128 0x7
+ 501 0379 E6030000 		.4byte	.LASF76
+ 502 037d 03       		.byte	0x3
+ 503 037e 77       		.byte	0x77
+ 504 037f C7000000 		.4byte	0xc7
+ 505 0383 6A       		.byte	0x6a
+ 506 0384 07       		.uleb128 0x7
+ 507 0385 6F040000 		.4byte	.LASF77
+ 508 0389 03       		.byte	0x3
+ 509 038a 78       		.byte	0x78
+ 510 038b C7000000 		.4byte	0xc7
+ 511 038f 6C       		.byte	0x6c
+ 512 0390 07       		.uleb128 0x7
+ 513 0391 9D040000 		.4byte	.LASF78
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 10
+
+
+ 514 0395 03       		.byte	0x3
+ 515 0396 79       		.byte	0x79
+ 516 0397 C7000000 		.4byte	0xc7
+ 517 039b 6E       		.byte	0x6e
+ 518 039c 07       		.uleb128 0x7
+ 519 039d 8E080000 		.4byte	.LASF79
+ 520 03a1 03       		.byte	0x3
+ 521 03a2 7B       		.byte	0x7b
+ 522 03a3 B1000000 		.4byte	0xb1
+ 523 03a7 70       		.byte	0x70
+ 524 03a8 07       		.uleb128 0x7
+ 525 03a9 61010000 		.4byte	.LASF80
+ 526 03ad 03       		.byte	0x3
+ 527 03ae 7C       		.byte	0x7c
+ 528 03af B1000000 		.4byte	0xb1
+ 529 03b3 71       		.byte	0x71
+ 530 03b4 07       		.uleb128 0x7
+ 531 03b5 260B0000 		.4byte	.LASF81
+ 532 03b9 03       		.byte	0x3
+ 533 03ba 7D       		.byte	0x7d
+ 534 03bb B1000000 		.4byte	0xb1
+ 535 03bf 72       		.byte	0x72
+ 536 03c0 07       		.uleb128 0x7
+ 537 03c1 09060000 		.4byte	.LASF82
+ 538 03c5 03       		.byte	0x3
+ 539 03c6 7E       		.byte	0x7e
+ 540 03c7 B1000000 		.4byte	0xb1
+ 541 03cb 73       		.byte	0x73
+ 542 03cc 07       		.uleb128 0x7
+ 543 03cd AA020000 		.4byte	.LASF83
+ 544 03d1 03       		.byte	0x3
+ 545 03d2 80       		.byte	0x80
+ 546 03d3 C7000000 		.4byte	0xc7
+ 547 03d7 74       		.byte	0x74
+ 548 03d8 07       		.uleb128 0x7
+ 549 03d9 41090000 		.4byte	.LASF84
+ 550 03dd 03       		.byte	0x3
+ 551 03de 81       		.byte	0x81
+ 552 03df C7000000 		.4byte	0xc7
+ 553 03e3 76       		.byte	0x76
+ 554 03e4 07       		.uleb128 0x7
+ 555 03e5 8A020000 		.4byte	.LASF85
+ 556 03e9 03       		.byte	0x3
+ 557 03ea 82       		.byte	0x82
+ 558 03eb C7000000 		.4byte	0xc7
+ 559 03ef 78       		.byte	0x78
+ 560 03f0 07       		.uleb128 0x7
+ 561 03f1 88000000 		.4byte	.LASF86
+ 562 03f5 03       		.byte	0x3
+ 563 03f6 83       		.byte	0x83
+ 564 03f7 C7000000 		.4byte	0xc7
+ 565 03fb 7A       		.byte	0x7a
+ 566 03fc 07       		.uleb128 0x7
+ 567 03fd B90A0000 		.4byte	.LASF87
+ 568 0401 03       		.byte	0x3
+ 569 0402 86       		.byte	0x86
+ 570 0403 B1000000 		.4byte	0xb1
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 11
+
+
+ 571 0407 7C       		.byte	0x7c
+ 572 0408 07       		.uleb128 0x7
+ 573 0409 010A0000 		.4byte	.LASF88
+ 574 040d 03       		.byte	0x3
+ 575 040e 87       		.byte	0x87
+ 576 040f B1000000 		.4byte	0xb1
+ 577 0413 7D       		.byte	0x7d
+ 578 0414 07       		.uleb128 0x7
+ 579 0415 26000000 		.4byte	.LASF89
+ 580 0419 03       		.byte	0x3
+ 581 041a 88       		.byte	0x88
+ 582 041b B1000000 		.4byte	0xb1
+ 583 041f 7E       		.byte	0x7e
+ 584 0420 07       		.uleb128 0x7
+ 585 0421 E6020000 		.4byte	.LASF90
+ 586 0425 03       		.byte	0x3
+ 587 0426 89       		.byte	0x89
+ 588 0427 B1000000 		.4byte	0xb1
+ 589 042b 7F       		.byte	0x7f
+ 590 042c 07       		.uleb128 0x7
+ 591 042d 69030000 		.4byte	.LASF91
+ 592 0431 03       		.byte	0x3
+ 593 0432 8A       		.byte	0x8a
+ 594 0433 B1000000 		.4byte	0xb1
+ 595 0437 80       		.byte	0x80
+ 596 0438 07       		.uleb128 0x7
+ 597 0439 1F050000 		.4byte	.LASF92
+ 598 043d 03       		.byte	0x3
+ 599 043e 8D       		.byte	0x8d
+ 600 043f DD000000 		.4byte	0xdd
+ 601 0443 84       		.byte	0x84
+ 602 0444 07       		.uleb128 0x7
+ 603 0445 FF010000 		.4byte	.LASF93
+ 604 0449 03       		.byte	0x3
+ 605 044a 8E       		.byte	0x8e
+ 606 044b DD000000 		.4byte	0xdd
+ 607 044f 88       		.byte	0x88
+ 608 0450 07       		.uleb128 0x7
+ 609 0451 A40A0000 		.4byte	.LASF94
+ 610 0455 03       		.byte	0x3
+ 611 0456 8F       		.byte	0x8f
+ 612 0457 DD000000 		.4byte	0xdd
+ 613 045b 8C       		.byte	0x8c
+ 614 045c 07       		.uleb128 0x7
+ 615 045d 9A050000 		.4byte	.LASF95
+ 616 0461 03       		.byte	0x3
+ 617 0462 90       		.byte	0x90
+ 618 0463 DD000000 		.4byte	0xdd
+ 619 0467 90       		.byte	0x90
+ 620 0468 07       		.uleb128 0x7
+ 621 0469 2A030000 		.4byte	.LASF96
+ 622 046d 03       		.byte	0x3
+ 623 046e 91       		.byte	0x91
+ 624 046f DD000000 		.4byte	0xdd
+ 625 0473 94       		.byte	0x94
+ 626 0474 07       		.uleb128 0x7
+ 627 0475 09050000 		.4byte	.LASF97
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 12
+
+
+ 628 0479 03       		.byte	0x3
+ 629 047a 92       		.byte	0x92
+ 630 047b DD000000 		.4byte	0xdd
+ 631 047f 98       		.byte	0x98
+ 632 0480 07       		.uleb128 0x7
+ 633 0481 E60A0000 		.4byte	.LASF98
+ 634 0485 03       		.byte	0x3
+ 635 0486 93       		.byte	0x93
+ 636 0487 DD000000 		.4byte	0xdd
+ 637 048b 9C       		.byte	0x9c
+ 638 048c 07       		.uleb128 0x7
+ 639 048d F6000000 		.4byte	.LASF99
+ 640 0491 03       		.byte	0x3
+ 641 0492 94       		.byte	0x94
+ 642 0493 DD000000 		.4byte	0xdd
+ 643 0497 A0       		.byte	0xa0
+ 644 0498 07       		.uleb128 0x7
+ 645 0499 8A010000 		.4byte	.LASF100
+ 646 049d 03       		.byte	0x3
+ 647 049e 95       		.byte	0x95
+ 648 049f C7000000 		.4byte	0xc7
+ 649 04a3 A4       		.byte	0xa4
+ 650 04a4 07       		.uleb128 0x7
+ 651 04a5 F4040000 		.4byte	.LASF101
+ 652 04a9 03       		.byte	0x3
+ 653 04aa 96       		.byte	0x96
+ 654 04ab C7000000 		.4byte	0xc7
+ 655 04af A6       		.byte	0xa6
+ 656 04b0 07       		.uleb128 0x7
+ 657 04b1 8F070000 		.4byte	.LASF102
+ 658 04b5 03       		.byte	0x3
+ 659 04b6 97       		.byte	0x97
+ 660 04b7 C7000000 		.4byte	0xc7
+ 661 04bb A8       		.byte	0xa8
+ 662 04bc 07       		.uleb128 0x7
+ 663 04bd 03090000 		.4byte	.LASF103
+ 664 04c1 03       		.byte	0x3
+ 665 04c2 98       		.byte	0x98
+ 666 04c3 C7000000 		.4byte	0xc7
+ 667 04c7 AA       		.byte	0xaa
+ 668 04c8 07       		.uleb128 0x7
+ 669 04c9 7E040000 		.4byte	.LASF104
+ 670 04cd 03       		.byte	0x3
+ 671 04ce 99       		.byte	0x99
+ 672 04cf C7000000 		.4byte	0xc7
+ 673 04d3 AC       		.byte	0xac
+ 674 04d4 07       		.uleb128 0x7
+ 675 04d5 20060000 		.4byte	.LASF105
+ 676 04d9 03       		.byte	0x3
+ 677 04da 9A       		.byte	0x9a
+ 678 04db C7000000 		.4byte	0xc7
+ 679 04df AE       		.byte	0xae
+ 680 04e0 07       		.uleb128 0x7
+ 681 04e1 C8090000 		.4byte	.LASF106
+ 682 04e5 03       		.byte	0x3
+ 683 04e6 9D       		.byte	0x9d
+ 684 04e7 C7000000 		.4byte	0xc7
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 13
+
+
+ 685 04eb B0       		.byte	0xb0
+ 686 04ec 07       		.uleb128 0x7
+ 687 04ed 39000000 		.4byte	.LASF107
+ 688 04f1 03       		.byte	0x3
+ 689 04f2 9E       		.byte	0x9e
+ 690 04f3 DD000000 		.4byte	0xdd
+ 691 04f7 B4       		.byte	0xb4
+ 692 04f8 00       		.byte	0
+ 693 04f9 04       		.uleb128 0x4
+ 694 04fa CE040000 		.4byte	.LASF108
+ 695 04fe 03       		.byte	0x3
+ 696 04ff 9F       		.byte	0x9f
+ 697 0500 E8000000 		.4byte	0xe8
+ 698 0504 03       		.uleb128 0x3
+ 699 0505 04       		.byte	0x4
+ 700 0506 04       		.byte	0x4
+ 701 0507 6E070000 		.4byte	.LASF109
+ 702 050b 03       		.uleb128 0x3
+ 703 050c 08       		.byte	0x8
+ 704 050d 04       		.byte	0x4
+ 705 050e 83020000 		.4byte	.LASF110
+ 706 0512 08       		.uleb128 0x8
+ 707 0513 02       		.byte	0x2
+ 708 0514 04       		.byte	0x4
+ 709 0515 6001     		.2byte	0x160
+ 710 0517 36050000 		.4byte	0x536
+ 711 051b 09       		.uleb128 0x9
+ 712 051c FC0A0000 		.4byte	.LASF111
+ 713 0520 04       		.byte	0x4
+ 714 0521 6A01     		.2byte	0x16a
+ 715 0523 B1000000 		.4byte	0xb1
+ 716 0527 00       		.byte	0
+ 717 0528 09       		.uleb128 0x9
+ 718 0529 5E050000 		.4byte	.LASF112
+ 719 052d 04       		.byte	0x4
+ 720 052e 6E01     		.2byte	0x16e
+ 721 0530 B1000000 		.4byte	0xb1
+ 722 0534 01       		.byte	0x1
+ 723 0535 00       		.byte	0
+ 724 0536 0A       		.uleb128 0xa
+ 725 0537 9D000000 		.4byte	.LASF113
+ 726 053b 04       		.byte	0x4
+ 727 053c 7001     		.2byte	0x170
+ 728 053e 12050000 		.4byte	0x512
+ 729 0542 0A       		.uleb128 0xa
+ 730 0543 71050000 		.4byte	.LASF114
+ 731 0547 05       		.byte	0x5
+ 732 0548 7F01     		.2byte	0x17f
+ 733 054a C7000000 		.4byte	0xc7
+ 734 054e 0B       		.uleb128 0xb
+ 735 054f 01       		.byte	0x1
+ 736 0550 4B000000 		.4byte	0x4b
+ 737 0554 06       		.byte	0x6
+ 738 0555 7E       		.byte	0x7e
+ 739 0556 73050000 		.4byte	0x573
+ 740 055a 0C       		.uleb128 0xc
+ 741 055b 830A0000 		.4byte	.LASF115
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 14
+
+
+ 742 055f 00       		.byte	0
+ 743 0560 0C       		.uleb128 0xc
+ 744 0561 EA050000 		.4byte	.LASF116
+ 745 0565 01       		.byte	0x1
+ 746 0566 0C       		.uleb128 0xc
+ 747 0567 660A0000 		.4byte	.LASF117
+ 748 056b 02       		.byte	0x2
+ 749 056c 0C       		.uleb128 0xc
+ 750 056d 9F010000 		.4byte	.LASF118
+ 751 0571 03       		.byte	0x3
+ 752 0572 00       		.byte	0
+ 753 0573 04       		.uleb128 0x4
+ 754 0574 36020000 		.4byte	.LASF119
+ 755 0578 06       		.byte	0x6
+ 756 0579 83       		.byte	0x83
+ 757 057a 4E050000 		.4byte	0x54e
+ 758 057e 0B       		.uleb128 0xb
+ 759 057f 01       		.byte	0x1
+ 760 0580 4B000000 		.4byte	0x4b
+ 761 0584 06       		.byte	0x6
+ 762 0585 87       		.byte	0x87
+ 763 0586 BB050000 		.4byte	0x5bb
+ 764 058a 0C       		.uleb128 0xc
+ 765 058b 200A0000 		.4byte	.LASF120
+ 766 058f 00       		.byte	0
+ 767 0590 0C       		.uleb128 0xc
+ 768 0591 4E0B0000 		.4byte	.LASF121
+ 769 0595 01       		.byte	0x1
+ 770 0596 0C       		.uleb128 0xc
+ 771 0597 96030000 		.4byte	.LASF122
+ 772 059b 02       		.byte	0x2
+ 773 059c 0C       		.uleb128 0xc
+ 774 059d 3F030000 		.4byte	.LASF123
+ 775 05a1 03       		.byte	0x3
+ 776 05a2 0C       		.uleb128 0xc
+ 777 05a3 BC020000 		.4byte	.LASF124
+ 778 05a7 04       		.byte	0x4
+ 779 05a8 0C       		.uleb128 0xc
+ 780 05a9 B9070000 		.4byte	.LASF125
+ 781 05ad 05       		.byte	0x5
+ 782 05ae 0C       		.uleb128 0xc
+ 783 05af B2030000 		.4byte	.LASF126
+ 784 05b3 06       		.byte	0x6
+ 785 05b4 0C       		.uleb128 0xc
+ 786 05b5 4A070000 		.4byte	.LASF127
+ 787 05b9 07       		.byte	0x7
+ 788 05ba 00       		.byte	0
+ 789 05bb 04       		.uleb128 0x4
+ 790 05bc 4A060000 		.4byte	.LASF128
+ 791 05c0 06       		.byte	0x6
+ 792 05c1 90       		.byte	0x90
+ 793 05c2 7E050000 		.4byte	0x57e
+ 794 05c6 04       		.uleb128 0x4
+ 795 05c7 16020000 		.4byte	.LASF129
+ 796 05cb 07       		.byte	0x7
+ 797 05cc 40       		.byte	0x40
+ 798 05cd D1050000 		.4byte	0x5d1
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 15
+
+
+ 799 05d1 0D       		.uleb128 0xd
+ 800 05d2 04       		.byte	0x4
+ 801 05d3 D7050000 		.4byte	0x5d7
+ 802 05d7 0E       		.uleb128 0xe
+ 803 05d8 E7050000 		.4byte	0x5e7
+ 804 05dc 0F       		.uleb128 0xf
+ 805 05dd DD000000 		.4byte	0xdd
+ 806 05e1 0F       		.uleb128 0xf
+ 807 05e2 A8000000 		.4byte	0xa8
+ 808 05e6 00       		.byte	0
+ 809 05e7 03       		.uleb128 0x3
+ 810 05e8 01       		.byte	0x1
+ 811 05e9 02       		.byte	0x2
+ 812 05ea F0070000 		.4byte	.LASF130
+ 813 05ee 0B       		.uleb128 0xb
+ 814 05ef 01       		.byte	0x1
+ 815 05f0 4B000000 		.4byte	0x4b
+ 816 05f4 08       		.byte	0x8
+ 817 05f5 29       		.byte	0x29
+ 818 05f6 37060000 		.4byte	0x637
+ 819 05fa 0C       		.uleb128 0xc
+ 820 05fb A2080000 		.4byte	.LASF131
+ 821 05ff 00       		.byte	0
+ 822 0600 0C       		.uleb128 0xc
+ 823 0601 AA040000 		.4byte	.LASF132
+ 824 0605 01       		.byte	0x1
+ 825 0606 0C       		.uleb128 0xc
+ 826 0607 D6090000 		.4byte	.LASF133
+ 827 060b 02       		.byte	0x2
+ 828 060c 0C       		.uleb128 0xc
+ 829 060d 94090000 		.4byte	.LASF134
+ 830 0611 03       		.byte	0x3
+ 831 0612 0C       		.uleb128 0xc
+ 832 0613 CE0A0000 		.4byte	.LASF135
+ 833 0617 04       		.byte	0x4
+ 834 0618 0C       		.uleb128 0xc
+ 835 0619 1E040000 		.4byte	.LASF136
+ 836 061d 05       		.byte	0x5
+ 837 061e 0C       		.uleb128 0xc
+ 838 061f C9010000 		.4byte	.LASF137
+ 839 0623 06       		.byte	0x6
+ 840 0624 0C       		.uleb128 0xc
+ 841 0625 54090000 		.4byte	.LASF138
+ 842 0629 07       		.byte	0x7
+ 843 062a 0C       		.uleb128 0xc
+ 844 062b 66020000 		.4byte	.LASF139
+ 845 062f 08       		.byte	0x8
+ 846 0630 0C       		.uleb128 0xc
+ 847 0631 C3050000 		.4byte	.LASF140
+ 848 0635 09       		.byte	0x9
+ 849 0636 00       		.byte	0
+ 850 0637 06       		.uleb128 0x6
+ 851 0638 14       		.byte	0x14
+ 852 0639 08       		.byte	0x8
+ 853 063a 37       		.byte	0x37
+ 854 063b 58060000 		.4byte	0x658
+ 855 063f 07       		.uleb128 0x7
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 16
+
+
+ 856 0640 120A0000 		.4byte	.LASF141
+ 857 0644 08       		.byte	0x8
+ 858 0645 3A       		.byte	0x3a
+ 859 0646 42050000 		.4byte	0x542
+ 860 064a 00       		.byte	0
+ 861 064b 07       		.uleb128 0x7
+ 862 064c 20080000 		.4byte	.LASF142
+ 863 0650 08       		.byte	0x8
+ 864 0651 3D       		.byte	0x3d
+ 865 0652 58060000 		.4byte	0x658
+ 866 0656 02       		.byte	0x2
+ 867 0657 00       		.byte	0
+ 868 0658 10       		.uleb128 0x10
+ 869 0659 42050000 		.4byte	0x542
+ 870 065d 68060000 		.4byte	0x668
+ 871 0661 11       		.uleb128 0x11
+ 872 0662 A1000000 		.4byte	0xa1
+ 873 0666 08       		.byte	0x8
+ 874 0667 00       		.byte	0
+ 875 0668 04       		.uleb128 0x4
+ 876 0669 2B080000 		.4byte	.LASF143
+ 877 066d 08       		.byte	0x8
+ 878 066e 3E       		.byte	0x3e
+ 879 066f 37060000 		.4byte	0x637
+ 880 0673 06       		.uleb128 0x6
+ 881 0674 08       		.byte	0x8
+ 882 0675 08       		.byte	0x8
+ 883 0676 50       		.byte	0x50
+ 884 0677 94060000 		.4byte	0x694
+ 885 067b 07       		.uleb128 0x7
+ 886 067c EF090000 		.4byte	.LASF144
+ 887 0680 08       		.byte	0x8
+ 888 0681 53       		.byte	0x53
+ 889 0682 94060000 		.4byte	0x694
+ 890 0686 00       		.byte	0
+ 891 0687 07       		.uleb128 0x7
+ 892 0688 E3070000 		.4byte	.LASF145
+ 893 068c 08       		.byte	0x8
+ 894 068d 56       		.byte	0x56
+ 895 068e C6050000 		.4byte	0x5c6
+ 896 0692 04       		.byte	0x4
+ 897 0693 00       		.byte	0
+ 898 0694 0D       		.uleb128 0xd
+ 899 0695 04       		.byte	0x4
+ 900 0696 9A060000 		.4byte	0x69a
+ 901 069a 12       		.uleb128 0x12
+ 902 069b 68060000 		.4byte	0x668
+ 903 069f 04       		.uleb128 0x4
+ 904 06a0 DE010000 		.4byte	.LASF146
+ 905 06a4 08       		.byte	0x8
+ 906 06a5 57       		.byte	0x57
+ 907 06a6 73060000 		.4byte	0x673
+ 908 06aa 13       		.uleb128 0x13
+ 909 06ab 11090000 		.4byte	.LASF157
+ 910 06af 0A       		.byte	0xa
+ 911 06b0 17       		.byte	0x17
+ 912 06b1 9A060000 		.4byte	0x69a
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 17
+
+
+ 913 06b5 05       		.uleb128 0x5
+ 914 06b6 03       		.byte	0x3
+ 915 06b7 00000000 		.4byte	cy_ble_diss
+ 916 06bb 14       		.uleb128 0x14
+ 917 06bc 85070000 		.4byte	.LASF147
+ 918 06c0 03       		.byte	0x3
+ 919 06c1 A7       		.byte	0xa7
+ 920 06c2 C6060000 		.4byte	0x6c6
+ 921 06c6 0D       		.uleb128 0xd
+ 922 06c7 04       		.byte	0x4
+ 923 06c8 CC060000 		.4byte	0x6cc
+ 924 06cc 12       		.uleb128 0x12
+ 925 06cd F9040000 		.4byte	0x4f9
+ 926 06d1 15       		.uleb128 0x15
+ 927 06d2 0C010000 		.4byte	.LASF148
+ 928 06d6 09       		.byte	0x9
+ 929 06d7 F907     		.2byte	0x7f9
+ 930 06d9 DD060000 		.4byte	0x6dd
+ 931 06dd 16       		.uleb128 0x16
+ 932 06de D2000000 		.4byte	0xd2
+ 933 06e2 15       		.uleb128 0x15
+ 934 06e3 77090000 		.4byte	.LASF149
+ 935 06e7 06       		.byte	0x6
+ 936 06e8 2202     		.2byte	0x222
+ 937 06ea 73050000 		.4byte	0x573
+ 938 06ee 10       		.uleb128 0x10
+ 939 06ef 36050000 		.4byte	0x536
+ 940 06f3 FE060000 		.4byte	0x6fe
+ 941 06f7 11       		.uleb128 0x11
+ 942 06f8 A1000000 		.4byte	0xa1
+ 943 06fc 00       		.byte	0
+ 944 06fd 00       		.byte	0
+ 945 06fe 15       		.uleb128 0x15
+ 946 06ff 3F0A0000 		.4byte	.LASF150
+ 947 0703 06       		.byte	0x6
+ 948 0704 2C02     		.2byte	0x22c
+ 949 0706 EE060000 		.4byte	0x6ee
+ 950 070a 10       		.uleb128 0x10
+ 951 070b BB050000 		.4byte	0x5bb
+ 952 070f 1A070000 		.4byte	0x71a
+ 953 0713 11       		.uleb128 0x11
+ 954 0714 A1000000 		.4byte	0xa1
+ 955 0718 00       		.byte	0
+ 956 0719 00       		.byte	0
+ 957 071a 15       		.uleb128 0x15
+ 958 071b 8C040000 		.4byte	.LASF151
+ 959 071f 06       		.byte	0x6
+ 960 0720 2D02     		.2byte	0x22d
+ 961 0722 0A070000 		.4byte	0x70a
+ 962 0726 15       		.uleb128 0x15
+ 963 0727 28090000 		.4byte	.LASF152
+ 964 072b 06       		.byte	0x6
+ 965 072c 5202     		.2byte	0x252
+ 966 072e B1000000 		.4byte	0xb1
+ 967 0732 17       		.uleb128 0x17
+ 968 0733 5E040000 		.4byte	.LASF153
+ 969 0737 0A       		.byte	0xa
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 18
+
+
+ 970 0738 2E       		.byte	0x2e
+ 971 0739 9F060000 		.4byte	0x69f
+ 972 073d 05       		.uleb128 0x5
+ 973 073e 03       		.byte	0x3
+ 974 073f 00000000 		.4byte	cy_ble_disConfig
+ 975 0743 00       		.byte	0
+ 976              		.section	.debug_abbrev,"",%progbits
+ 977              	.Ldebug_abbrev0:
+ 978 0000 01       		.uleb128 0x1
+ 979 0001 11       		.uleb128 0x11
+ 980 0002 01       		.byte	0x1
+ 981 0003 25       		.uleb128 0x25
+ 982 0004 0E       		.uleb128 0xe
+ 983 0005 13       		.uleb128 0x13
+ 984 0006 0B       		.uleb128 0xb
+ 985 0007 03       		.uleb128 0x3
+ 986 0008 0E       		.uleb128 0xe
+ 987 0009 1B       		.uleb128 0x1b
+ 988 000a 0E       		.uleb128 0xe
+ 989 000b 10       		.uleb128 0x10
+ 990 000c 17       		.uleb128 0x17
+ 991 000d 00       		.byte	0
+ 992 000e 00       		.byte	0
+ 993 000f 02       		.uleb128 0x2
+ 994 0010 24       		.uleb128 0x24
+ 995 0011 00       		.byte	0
+ 996 0012 0B       		.uleb128 0xb
+ 997 0013 0B       		.uleb128 0xb
+ 998 0014 3E       		.uleb128 0x3e
+ 999 0015 0B       		.uleb128 0xb
+ 1000 0016 03       		.uleb128 0x3
+ 1001 0017 08       		.uleb128 0x8
+ 1002 0018 00       		.byte	0
+ 1003 0019 00       		.byte	0
+ 1004 001a 03       		.uleb128 0x3
+ 1005 001b 24       		.uleb128 0x24
+ 1006 001c 00       		.byte	0
+ 1007 001d 0B       		.uleb128 0xb
+ 1008 001e 0B       		.uleb128 0xb
+ 1009 001f 3E       		.uleb128 0x3e
+ 1010 0020 0B       		.uleb128 0xb
+ 1011 0021 03       		.uleb128 0x3
+ 1012 0022 0E       		.uleb128 0xe
+ 1013 0023 00       		.byte	0
+ 1014 0024 00       		.byte	0
+ 1015 0025 04       		.uleb128 0x4
+ 1016 0026 16       		.uleb128 0x16
+ 1017 0027 00       		.byte	0
+ 1018 0028 03       		.uleb128 0x3
+ 1019 0029 0E       		.uleb128 0xe
+ 1020 002a 3A       		.uleb128 0x3a
+ 1021 002b 0B       		.uleb128 0xb
+ 1022 002c 3B       		.uleb128 0x3b
+ 1023 002d 0B       		.uleb128 0xb
+ 1024 002e 49       		.uleb128 0x49
+ 1025 002f 13       		.uleb128 0x13
+ 1026 0030 00       		.byte	0
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 19
+
+
+ 1027 0031 00       		.byte	0
+ 1028 0032 05       		.uleb128 0x5
+ 1029 0033 0F       		.uleb128 0xf
+ 1030 0034 00       		.byte	0
+ 1031 0035 0B       		.uleb128 0xb
+ 1032 0036 0B       		.uleb128 0xb
+ 1033 0037 00       		.byte	0
+ 1034 0038 00       		.byte	0
+ 1035 0039 06       		.uleb128 0x6
+ 1036 003a 13       		.uleb128 0x13
+ 1037 003b 01       		.byte	0x1
+ 1038 003c 0B       		.uleb128 0xb
+ 1039 003d 0B       		.uleb128 0xb
+ 1040 003e 3A       		.uleb128 0x3a
+ 1041 003f 0B       		.uleb128 0xb
+ 1042 0040 3B       		.uleb128 0x3b
+ 1043 0041 0B       		.uleb128 0xb
+ 1044 0042 01       		.uleb128 0x1
+ 1045 0043 13       		.uleb128 0x13
+ 1046 0044 00       		.byte	0
+ 1047 0045 00       		.byte	0
+ 1048 0046 07       		.uleb128 0x7
+ 1049 0047 0D       		.uleb128 0xd
+ 1050 0048 00       		.byte	0
+ 1051 0049 03       		.uleb128 0x3
+ 1052 004a 0E       		.uleb128 0xe
+ 1053 004b 3A       		.uleb128 0x3a
+ 1054 004c 0B       		.uleb128 0xb
+ 1055 004d 3B       		.uleb128 0x3b
+ 1056 004e 0B       		.uleb128 0xb
+ 1057 004f 49       		.uleb128 0x49
+ 1058 0050 13       		.uleb128 0x13
+ 1059 0051 38       		.uleb128 0x38
+ 1060 0052 0B       		.uleb128 0xb
+ 1061 0053 00       		.byte	0
+ 1062 0054 00       		.byte	0
+ 1063 0055 08       		.uleb128 0x8
+ 1064 0056 13       		.uleb128 0x13
+ 1065 0057 01       		.byte	0x1
+ 1066 0058 0B       		.uleb128 0xb
+ 1067 0059 0B       		.uleb128 0xb
+ 1068 005a 3A       		.uleb128 0x3a
+ 1069 005b 0B       		.uleb128 0xb
+ 1070 005c 3B       		.uleb128 0x3b
+ 1071 005d 05       		.uleb128 0x5
+ 1072 005e 01       		.uleb128 0x1
+ 1073 005f 13       		.uleb128 0x13
+ 1074 0060 00       		.byte	0
+ 1075 0061 00       		.byte	0
+ 1076 0062 09       		.uleb128 0x9
+ 1077 0063 0D       		.uleb128 0xd
+ 1078 0064 00       		.byte	0
+ 1079 0065 03       		.uleb128 0x3
+ 1080 0066 0E       		.uleb128 0xe
+ 1081 0067 3A       		.uleb128 0x3a
+ 1082 0068 0B       		.uleb128 0xb
+ 1083 0069 3B       		.uleb128 0x3b
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 20
+
+
+ 1084 006a 05       		.uleb128 0x5
+ 1085 006b 49       		.uleb128 0x49
+ 1086 006c 13       		.uleb128 0x13
+ 1087 006d 38       		.uleb128 0x38
+ 1088 006e 0B       		.uleb128 0xb
+ 1089 006f 00       		.byte	0
+ 1090 0070 00       		.byte	0
+ 1091 0071 0A       		.uleb128 0xa
+ 1092 0072 16       		.uleb128 0x16
+ 1093 0073 00       		.byte	0
+ 1094 0074 03       		.uleb128 0x3
+ 1095 0075 0E       		.uleb128 0xe
+ 1096 0076 3A       		.uleb128 0x3a
+ 1097 0077 0B       		.uleb128 0xb
+ 1098 0078 3B       		.uleb128 0x3b
+ 1099 0079 05       		.uleb128 0x5
+ 1100 007a 49       		.uleb128 0x49
+ 1101 007b 13       		.uleb128 0x13
+ 1102 007c 00       		.byte	0
+ 1103 007d 00       		.byte	0
+ 1104 007e 0B       		.uleb128 0xb
+ 1105 007f 04       		.uleb128 0x4
+ 1106 0080 01       		.byte	0x1
+ 1107 0081 0B       		.uleb128 0xb
+ 1108 0082 0B       		.uleb128 0xb
+ 1109 0083 49       		.uleb128 0x49
+ 1110 0084 13       		.uleb128 0x13
+ 1111 0085 3A       		.uleb128 0x3a
+ 1112 0086 0B       		.uleb128 0xb
+ 1113 0087 3B       		.uleb128 0x3b
+ 1114 0088 0B       		.uleb128 0xb
+ 1115 0089 01       		.uleb128 0x1
+ 1116 008a 13       		.uleb128 0x13
+ 1117 008b 00       		.byte	0
+ 1118 008c 00       		.byte	0
+ 1119 008d 0C       		.uleb128 0xc
+ 1120 008e 28       		.uleb128 0x28
+ 1121 008f 00       		.byte	0
+ 1122 0090 03       		.uleb128 0x3
+ 1123 0091 0E       		.uleb128 0xe
+ 1124 0092 1C       		.uleb128 0x1c
+ 1125 0093 0B       		.uleb128 0xb
+ 1126 0094 00       		.byte	0
+ 1127 0095 00       		.byte	0
+ 1128 0096 0D       		.uleb128 0xd
+ 1129 0097 0F       		.uleb128 0xf
+ 1130 0098 00       		.byte	0
+ 1131 0099 0B       		.uleb128 0xb
+ 1132 009a 0B       		.uleb128 0xb
+ 1133 009b 49       		.uleb128 0x49
+ 1134 009c 13       		.uleb128 0x13
+ 1135 009d 00       		.byte	0
+ 1136 009e 00       		.byte	0
+ 1137 009f 0E       		.uleb128 0xe
+ 1138 00a0 15       		.uleb128 0x15
+ 1139 00a1 01       		.byte	0x1
+ 1140 00a2 27       		.uleb128 0x27
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 21
+
+
+ 1141 00a3 19       		.uleb128 0x19
+ 1142 00a4 01       		.uleb128 0x1
+ 1143 00a5 13       		.uleb128 0x13
+ 1144 00a6 00       		.byte	0
+ 1145 00a7 00       		.byte	0
+ 1146 00a8 0F       		.uleb128 0xf
+ 1147 00a9 05       		.uleb128 0x5
+ 1148 00aa 00       		.byte	0
+ 1149 00ab 49       		.uleb128 0x49
+ 1150 00ac 13       		.uleb128 0x13
+ 1151 00ad 00       		.byte	0
+ 1152 00ae 00       		.byte	0
+ 1153 00af 10       		.uleb128 0x10
+ 1154 00b0 01       		.uleb128 0x1
+ 1155 00b1 01       		.byte	0x1
+ 1156 00b2 49       		.uleb128 0x49
+ 1157 00b3 13       		.uleb128 0x13
+ 1158 00b4 01       		.uleb128 0x1
+ 1159 00b5 13       		.uleb128 0x13
+ 1160 00b6 00       		.byte	0
+ 1161 00b7 00       		.byte	0
+ 1162 00b8 11       		.uleb128 0x11
+ 1163 00b9 21       		.uleb128 0x21
+ 1164 00ba 00       		.byte	0
+ 1165 00bb 49       		.uleb128 0x49
+ 1166 00bc 13       		.uleb128 0x13
+ 1167 00bd 2F       		.uleb128 0x2f
+ 1168 00be 0B       		.uleb128 0xb
+ 1169 00bf 00       		.byte	0
+ 1170 00c0 00       		.byte	0
+ 1171 00c1 12       		.uleb128 0x12
+ 1172 00c2 26       		.uleb128 0x26
+ 1173 00c3 00       		.byte	0
+ 1174 00c4 49       		.uleb128 0x49
+ 1175 00c5 13       		.uleb128 0x13
+ 1176 00c6 00       		.byte	0
+ 1177 00c7 00       		.byte	0
+ 1178 00c8 13       		.uleb128 0x13
+ 1179 00c9 34       		.uleb128 0x34
+ 1180 00ca 00       		.byte	0
+ 1181 00cb 03       		.uleb128 0x3
+ 1182 00cc 0E       		.uleb128 0xe
+ 1183 00cd 3A       		.uleb128 0x3a
+ 1184 00ce 0B       		.uleb128 0xb
+ 1185 00cf 3B       		.uleb128 0x3b
+ 1186 00d0 0B       		.uleb128 0xb
+ 1187 00d1 49       		.uleb128 0x49
+ 1188 00d2 13       		.uleb128 0x13
+ 1189 00d3 02       		.uleb128 0x2
+ 1190 00d4 18       		.uleb128 0x18
+ 1191 00d5 00       		.byte	0
+ 1192 00d6 00       		.byte	0
+ 1193 00d7 14       		.uleb128 0x14
+ 1194 00d8 34       		.uleb128 0x34
+ 1195 00d9 00       		.byte	0
+ 1196 00da 03       		.uleb128 0x3
+ 1197 00db 0E       		.uleb128 0xe
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 22
+
+
+ 1198 00dc 3A       		.uleb128 0x3a
+ 1199 00dd 0B       		.uleb128 0xb
+ 1200 00de 3B       		.uleb128 0x3b
+ 1201 00df 0B       		.uleb128 0xb
+ 1202 00e0 49       		.uleb128 0x49
+ 1203 00e1 13       		.uleb128 0x13
+ 1204 00e2 3F       		.uleb128 0x3f
+ 1205 00e3 19       		.uleb128 0x19
+ 1206 00e4 3C       		.uleb128 0x3c
+ 1207 00e5 19       		.uleb128 0x19
+ 1208 00e6 00       		.byte	0
+ 1209 00e7 00       		.byte	0
+ 1210 00e8 15       		.uleb128 0x15
+ 1211 00e9 34       		.uleb128 0x34
+ 1212 00ea 00       		.byte	0
+ 1213 00eb 03       		.uleb128 0x3
+ 1214 00ec 0E       		.uleb128 0xe
+ 1215 00ed 3A       		.uleb128 0x3a
+ 1216 00ee 0B       		.uleb128 0xb
+ 1217 00ef 3B       		.uleb128 0x3b
+ 1218 00f0 05       		.uleb128 0x5
+ 1219 00f1 49       		.uleb128 0x49
+ 1220 00f2 13       		.uleb128 0x13
+ 1221 00f3 3F       		.uleb128 0x3f
+ 1222 00f4 19       		.uleb128 0x19
+ 1223 00f5 3C       		.uleb128 0x3c
+ 1224 00f6 19       		.uleb128 0x19
+ 1225 00f7 00       		.byte	0
+ 1226 00f8 00       		.byte	0
+ 1227 00f9 16       		.uleb128 0x16
+ 1228 00fa 35       		.uleb128 0x35
+ 1229 00fb 00       		.byte	0
+ 1230 00fc 49       		.uleb128 0x49
+ 1231 00fd 13       		.uleb128 0x13
+ 1232 00fe 00       		.byte	0
+ 1233 00ff 00       		.byte	0
+ 1234 0100 17       		.uleb128 0x17
+ 1235 0101 34       		.uleb128 0x34
+ 1236 0102 00       		.byte	0
+ 1237 0103 03       		.uleb128 0x3
+ 1238 0104 0E       		.uleb128 0xe
+ 1239 0105 3A       		.uleb128 0x3a
+ 1240 0106 0B       		.uleb128 0xb
+ 1241 0107 3B       		.uleb128 0x3b
+ 1242 0108 0B       		.uleb128 0xb
+ 1243 0109 49       		.uleb128 0x49
+ 1244 010a 13       		.uleb128 0x13
+ 1245 010b 3F       		.uleb128 0x3f
+ 1246 010c 19       		.uleb128 0x19
+ 1247 010d 02       		.uleb128 0x2
+ 1248 010e 18       		.uleb128 0x18
+ 1249 010f 00       		.byte	0
+ 1250 0110 00       		.byte	0
+ 1251 0111 00       		.byte	0
+ 1252              		.section	.debug_aranges,"",%progbits
+ 1253 0000 14000000 		.4byte	0x14
+ 1254 0004 0200     		.2byte	0x2
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 23
+
+
+ 1255 0006 00000000 		.4byte	.Ldebug_info0
+ 1256 000a 04       		.byte	0x4
+ 1257 000b 00       		.byte	0
+ 1258 000c 0000     		.2byte	0
+ 1259 000e 0000     		.2byte	0
+ 1260 0010 00000000 		.4byte	0
+ 1261 0014 00000000 		.4byte	0
+ 1262              		.section	.debug_line,"",%progbits
+ 1263              	.Ldebug_line0:
+ 1264 0000 45020000 		.section	.debug_str,"MS",%progbits,1
+ 1264      02003F02 
+ 1264      00000201 
+ 1264      FB0E0D00 
+ 1264      01010101 
+ 1265              	.LASF57:
+ 1266 0000 70726F74 		.ascii	"protBusMasterMask\000"
+ 1266      4275734D 
+ 1266      61737465 
+ 1266      724D6173 
+ 1266      6B00
+ 1267              	.LASF67:
+ 1268 0012 666C6173 		.ascii	"flashCtlMainWs3Freq\000"
+ 1268      6843746C 
+ 1268      4D61696E 
+ 1268      57733346 
+ 1268      72657100 
+ 1269              	.LASF89:
+ 1270 0026 6770696F 		.ascii	"gpioPrtCfgInOffset\000"
+ 1270      50727443 
+ 1270      6667496E 
+ 1270      4F666673 
+ 1270      657400
+ 1271              	.LASF107:
+ 1272 0039 6970634C 		.ascii	"ipcLockStatusOffset\000"
+ 1272      6F636B53 
+ 1272      74617475 
+ 1272      734F6666 
+ 1272      73657400 
+ 1273              	.LASF33:
+ 1274 004d 63727970 		.ascii	"cryptoVersion\000"
+ 1274      746F5665 
+ 1274      7273696F 
+ 1274      6E00
+ 1275              	.LASF51:
+ 1276 005b 70657269 		.ascii	"periClockNr\000"
+ 1276      436C6F63 
+ 1276      6B4E7200 
+ 1277              	.LASF29:
+ 1278 0067 70617373 		.ascii	"passBase\000"
+ 1278      42617365 
+ 1278      00
+ 1279              	.LASF42:
+ 1280 0070 63707573 		.ascii	"cpussIpcIrqNr\000"
+ 1280      73497063 
+ 1280      4972714E 
+ 1280      7200
+ 1281              	.LASF5:
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 24
+
+
+ 1282 007e 5F5F7569 		.ascii	"__uint8_t\000"
+ 1282      6E74385F 
+ 1282      7400
+ 1283              	.LASF86:
+ 1284 0088 70657269 		.ascii	"periDiv24_5CtlOffset\000"
+ 1284      44697632 
+ 1284      345F3543 
+ 1284      746C4F66 
+ 1284      66736574 
+ 1285              	.LASF113:
+ 1286 009d 63795F73 		.ascii	"cy_stc_ble_conn_handle_t\000"
+ 1286      74635F62 
+ 1286      6C655F63 
+ 1286      6F6E6E5F 
+ 1286      68616E64 
+ 1287              	.LASF22:
+ 1288 00b6 63707573 		.ascii	"cpussBase\000"
+ 1288      73426173 
+ 1288      6500
+ 1289              	.LASF71:
+ 1290 00c0 64774368 		.ascii	"dwChCtlPrioPos\000"
+ 1290      43746C50 
+ 1290      72696F50 
+ 1290      6F7300
+ 1291              	.LASF14:
+ 1292 00cf 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1292      206C6F6E 
+ 1292      6720756E 
+ 1292      7369676E 
+ 1292      65642069 
+ 1293              	.LASF75:
+ 1294 00e6 70657269 		.ascii	"periTrCmdOffset\000"
+ 1294      5472436D 
+ 1294      644F6666 
+ 1294      73657400 
+ 1295              	.LASF99:
+ 1296 00f6 63707573 		.ascii	"cpussSysTickCtlOffset\000"
+ 1296      73537973 
+ 1296      5469636B 
+ 1296      43746C4F 
+ 1296      66667365 
+ 1297              	.LASF148:
+ 1298 010c 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1298      52784275 
+ 1298      66666572 
+ 1298      00
+ 1299              	.LASF60:
+ 1300 0119 666C6173 		.ascii	"flashPipeRequired\000"
+ 1300      68506970 
+ 1300      65526571 
+ 1300      75697265 
+ 1300      6400
+ 1301              	.LASF64:
+ 1302 012b 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
+ 1302      6843746C 
+ 1302      4D61696E 
+ 1302      57733046 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 25
+
+
+ 1302      72657100 
+ 1303              	.LASF18:
+ 1304 013f 696E7431 		.ascii	"int16_t\000"
+ 1304      365F7400 
+ 1305              	.LASF1:
+ 1306 0147 6C6F6E67 		.ascii	"long long int\000"
+ 1306      206C6F6E 
+ 1306      6720696E 
+ 1306      7400
+ 1307              	.LASF3:
+ 1308 0155 7369676E 		.ascii	"signed char\000"
+ 1308      65642063 
+ 1308      68617200 
+ 1309              	.LASF80:
+ 1310 0161 70657269 		.ascii	"periDivCmdTypeSelPos\000"
+ 1310      44697643 
+ 1310      6D645479 
+ 1310      70655365 
+ 1310      6C506F73 
+ 1311              	.LASF26:
+ 1312 0176 70726F74 		.ascii	"protBase\000"
+ 1312      42617365 
+ 1312      00
+ 1313              	.LASF38:
+ 1314 017f 69706356 		.ascii	"ipcVersion\000"
+ 1314      65727369 
+ 1314      6F6E00
+ 1315              	.LASF100:
+ 1316 018a 63707573 		.ascii	"cpussCm0NmiCtlOffset\000"
+ 1316      73436D30 
+ 1316      4E6D6943 
+ 1316      746C4F66 
+ 1316      66736574 
+ 1317              	.LASF118:
+ 1318 019f 43595F42 		.ascii	"CY_BLE_ADV_STATE_STOP_INITIATED\000"
+ 1318      4C455F41 
+ 1318      44565F53 
+ 1318      54415445 
+ 1318      5F53544F 
+ 1319              	.LASF27:
+ 1320 01bf 6873696F 		.ascii	"hsiomBase\000"
+ 1320      6D426173 
+ 1320      6500
+ 1321              	.LASF137:
+ 1322 01c9 43595F42 		.ascii	"CY_BLE_DIS_SYSTEM_ID\000"
+ 1322      4C455F44 
+ 1322      49535F53 
+ 1322      59535445 
+ 1322      4D5F4944 
+ 1323              	.LASF146:
+ 1324 01de 63795F73 		.ascii	"cy_stc_ble_dis_config_t\000"
+ 1324      74635F62 
+ 1324      6C655F64 
+ 1324      69735F63 
+ 1324      6F6E6669 
+ 1325              	.LASF11:
+ 1326 01f6 6C6F6E67 		.ascii	"long int\000"
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 26
+
+
+ 1326      20696E74 
+ 1326      00
+ 1327              	.LASF93:
+ 1328 01ff 63707573 		.ascii	"cpussCm4ClockCtlOffset\000"
+ 1328      73436D34 
+ 1328      436C6F63 
+ 1328      6B43746C 
+ 1328      4F666673 
+ 1329              	.LASF129:
+ 1330 0216 63795F62 		.ascii	"cy_ble_callback_t\000"
+ 1330      6C655F63 
+ 1330      616C6C62 
+ 1330      61636B5F 
+ 1330      7400
+ 1331              	.LASF58:
+ 1332 0228 63727970 		.ascii	"cryptoMemSize\000"
+ 1332      746F4D65 
+ 1332      6D53697A 
+ 1332      6500
+ 1333              	.LASF119:
+ 1334 0236 63795F65 		.ascii	"cy_en_ble_adv_state_t\000"
+ 1334      6E5F626C 
+ 1334      655F6164 
+ 1334      765F7374 
+ 1334      6174655F 
+ 1335              	.LASF24:
+ 1336 024c 70657269 		.ascii	"periBase\000"
+ 1336      42617365 
+ 1336      00
+ 1337              	.LASF56:
+ 1338 0255 73797350 		.ascii	"sysPmSimoPresent\000"
+ 1338      6D53696D 
+ 1338      6F507265 
+ 1338      73656E74 
+ 1338      00
+ 1339              	.LASF139:
+ 1340 0266 43595F42 		.ascii	"CY_BLE_DIS_PNP_ID\000"
+ 1340      4C455F44 
+ 1340      49535F50 
+ 1340      4E505F49 
+ 1340      4400
+ 1341              	.LASF46:
+ 1342 0278 63707573 		.ascii	"cpussFmIrq\000"
+ 1342      73466D49 
+ 1342      727100
+ 1343              	.LASF110:
+ 1344 0283 646F7562 		.ascii	"double\000"
+ 1344      6C6500
+ 1345              	.LASF85:
+ 1346 028a 70657269 		.ascii	"periDiv16_5CtlOffset\000"
+ 1346      44697631 
+ 1346      365F3543 
+ 1346      746C4F66 
+ 1346      66736574 
+ 1347              	.LASF49:
+ 1348 029f 73727373 		.ascii	"srssNumPll\000"
+ 1348      4E756D50 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 27
+
+
+ 1348      6C6C00
+ 1349              	.LASF83:
+ 1350 02aa 70657269 		.ascii	"periDiv8CtlOffset\000"
+ 1350      44697638 
+ 1350      43746C4F 
+ 1350      66667365 
+ 1350      7400
+ 1351              	.LASF124:
+ 1352 02bc 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_INCL_DISCOVERING\000"
+ 1352      4C455F43 
+ 1352      4F4E4E5F 
+ 1352      53544154 
+ 1352      455F434C 
+ 1353              	.LASF90:
+ 1354 02e6 6770696F 		.ascii	"gpioPrtCfgOutOffset\000"
+ 1354      50727443 
+ 1354      66674F75 
+ 1354      744F6666 
+ 1354      73657400 
+ 1355              	.LASF23:
+ 1356 02fa 666C6173 		.ascii	"flashcBase\000"
+ 1356      68634261 
+ 1356      736500
+ 1357              	.LASF12:
+ 1358 0305 5F5F7569 		.ascii	"__uint32_t\000"
+ 1358      6E743332 
+ 1358      5F7400
+ 1359              	.LASF53:
+ 1360 0310 70617373 		.ascii	"passSarChannels\000"
+ 1360      53617243 
+ 1360      68616E6E 
+ 1360      656C7300 
+ 1361              	.LASF6:
+ 1362 0320 5F5F696E 		.ascii	"__int16_t\000"
+ 1362      7431365F 
+ 1362      7400
+ 1363              	.LASF96:
+ 1364 032a 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
+ 1364      73436D34 
+ 1364      50777243 
+ 1364      746C4F66 
+ 1364      66736574 
+ 1365              	.LASF123:
+ 1366 033f 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_SRVC_DISCOVERING\000"
+ 1366      4C455F43 
+ 1366      4F4E4E5F 
+ 1366      53544154 
+ 1366      455F434C 
+ 1367              	.LASF91:
+ 1368 0369 6770696F 		.ascii	"gpioPrtCfgSioOffset\000"
+ 1368      50727443 
+ 1368      66675369 
+ 1368      6F4F6666 
+ 1368      73657400 
+ 1369              	.LASF43:
+ 1370 037d 63707573 		.ascii	"cpussDwChNr\000"
+ 1370      73447743 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 28
+
+
+ 1370      684E7200 
+ 1371              	.LASF0:
+ 1372 0389 756E7369 		.ascii	"unsigned int\000"
+ 1372      676E6564 
+ 1372      20696E74 
+ 1372      00
+ 1373              	.LASF122:
+ 1374 0396 43595F42 		.ascii	"CY_BLE_CONN_STATE_CONNECTED\000"
+ 1374      4C455F43 
+ 1374      4F4E4E5F 
+ 1374      53544154 
+ 1374      455F434F 
+ 1375              	.LASF126:
+ 1376 03b2 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DESCR_DISCOVERING\000"
+ 1376      4C455F43 
+ 1376      4F4E4E5F 
+ 1376      53544154 
+ 1376      455F434C 
+ 1377              	.LASF19:
+ 1378 03dd 75696E74 		.ascii	"uint16_t\000"
+ 1378      31365F74 
+ 1378      00
+ 1379              	.LASF76:
+ 1380 03e6 70657269 		.ascii	"periTrCmdGrSelMsk\000"
+ 1380      5472436D 
+ 1380      64477253 
+ 1380      656C4D73 
+ 1380      6B00
+ 1381              	.LASF65:
+ 1382 03f8 666C6173 		.ascii	"flashCtlMainWs1Freq\000"
+ 1382      6843746C 
+ 1382      4D61696E 
+ 1382      57733146 
+ 1382      72657100 
+ 1383              	.LASF13:
+ 1384 040c 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1384      20756E73 
+ 1384      69676E65 
+ 1384      6420696E 
+ 1384      7400
+ 1385              	.LASF136:
+ 1386 041e 43595F42 		.ascii	"CY_BLE_DIS_SOFTWARE_REV\000"
+ 1386      4C455F44 
+ 1386      49535F53 
+ 1386      4F465457 
+ 1386      4152455F 
+ 1387              	.LASF41:
+ 1388 0436 63707573 		.ascii	"cpussIpcNr\000"
+ 1388      73497063 
+ 1388      4E7200
+ 1389              	.LASF28:
+ 1390 0441 6770696F 		.ascii	"gpioBase\000"
+ 1390      42617365 
+ 1390      00
+ 1391              	.LASF66:
+ 1392 044a 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
+ 1392      6843746C 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 29
+
+
+ 1392      4D61696E 
+ 1392      57733246 
+ 1392      72657100 
+ 1393              	.LASF153:
+ 1394 045e 63795F62 		.ascii	"cy_ble_disConfig\000"
+ 1394      6C655F64 
+ 1394      6973436F 
+ 1394      6E666967 
+ 1394      00
+ 1395              	.LASF77:
+ 1396 046f 70657269 		.ascii	"periTrGrOffset\000"
+ 1396      54724772 
+ 1396      4F666673 
+ 1396      657400
+ 1397              	.LASF104:
+ 1398 047e 63707573 		.ascii	"cpussRam1Ctl0\000"
+ 1398      7352616D 
+ 1398      3143746C 
+ 1398      3000
+ 1399              	.LASF151:
+ 1400 048c 63795F62 		.ascii	"cy_ble_connState\000"
+ 1400      6C655F63 
+ 1400      6F6E6E53 
+ 1400      74617465 
+ 1400      00
+ 1401              	.LASF78:
+ 1402 049d 70657269 		.ascii	"periTrGrSize\000"
+ 1402      54724772 
+ 1402      53697A65 
+ 1402      00
+ 1403              	.LASF132:
+ 1404 04aa 43595F42 		.ascii	"CY_BLE_DIS_MODEL_NUMBER\000"
+ 1404      4C455F44 
+ 1404      49535F4D 
+ 1404      4F44454C 
+ 1404      5F4E554D 
+ 1405              	.LASF36:
+ 1406 04c2 6770696F 		.ascii	"gpioVersion\000"
+ 1406      56657273 
+ 1406      696F6E00 
+ 1407              	.LASF108:
+ 1408 04ce 63795F73 		.ascii	"cy_stc_device_t\000"
+ 1408      74635F64 
+ 1408      65766963 
+ 1408      655F7400 
+ 1409              	.LASF7:
+ 1410 04de 73686F72 		.ascii	"short int\000"
+ 1410      7420696E 
+ 1410      7400
+ 1411              	.LASF54:
+ 1412 04e8 65704D6F 		.ascii	"epMonitorNr\000"
+ 1412      6E69746F 
+ 1412      724E7200 
+ 1413              	.LASF101:
+ 1414 04f4 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
+ 1414      73436D34 
+ 1414      4E6D6943 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 30
+
+
+ 1414      746C4F66 
+ 1414      66736574 
+ 1415              	.LASF97:
+ 1416 0509 63707573 		.ascii	"cpussTrimRamCtlOffset\000"
+ 1416      73547269 
+ 1416      6D52616D 
+ 1416      43746C4F 
+ 1416      66667365 
+ 1417              	.LASF92:
+ 1418 051f 63707573 		.ascii	"cpussCm0ClockCtlOffset\000"
+ 1418      73436D30 
+ 1418      436C6F63 
+ 1418      6B43746C 
+ 1418      4F666673 
+ 1419              	.LASF155:
+ 1420 0536 47656E65 		.ascii	"Generated_Source\\PSoC6\\BLE_dis_config.c\000"
+ 1420      72617465 
+ 1420      645F536F 
+ 1420      75726365 
+ 1420      5C50536F 
+ 1421              	.LASF112:
+ 1422 055e 61747449 		.ascii	"attId\000"
+ 1422      6400
+ 1423              	.LASF32:
+ 1424 0564 63707573 		.ascii	"cpussVersion\000"
+ 1424      73566572 
+ 1424      73696F6E 
+ 1424      00
+ 1425              	.LASF114:
+ 1426 0571 63795F62 		.ascii	"cy_ble_gatt_db_attr_handle_t\000"
+ 1426      6C655F67 
+ 1426      6174745F 
+ 1426      64625F61 
+ 1426      7474725F 
+ 1427              	.LASF39:
+ 1428 058e 70657269 		.ascii	"periVersion\000"
+ 1428      56657273 
+ 1428      696F6E00 
+ 1429              	.LASF95:
+ 1430 059a 63707573 		.ascii	"cpussCm0StatusOffset\000"
+ 1430      73436D30 
+ 1430      53746174 
+ 1430      75734F66 
+ 1430      66736574 
+ 1431              	.LASF15:
+ 1432 05af 73697A65 		.ascii	"sizetype\000"
+ 1432      74797065 
+ 1432      00
+ 1433              	.LASF69:
+ 1434 05b8 64774368 		.ascii	"dwChOffset\000"
+ 1434      4F666673 
+ 1434      657400
+ 1435              	.LASF140:
+ 1436 05c3 43595F42 		.ascii	"CY_BLE_DIS_CHAR_COUNT\000"
+ 1436      4C455F44 
+ 1436      49535F43 
+ 1436      4841525F 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 31
+
+
+ 1436      434F554E 
+ 1437              	.LASF44:
+ 1438 05d9 63707573 		.ascii	"cpussFlashPaSize\000"
+ 1438      73466C61 
+ 1438      73685061 
+ 1438      53697A65 
+ 1438      00
+ 1439              	.LASF116:
+ 1440 05ea 43595F42 		.ascii	"CY_BLE_ADV_STATE_ADV_INITIATED\000"
+ 1440      4C455F41 
+ 1440      44565F53 
+ 1440      54415445 
+ 1440      5F414456 
+ 1441              	.LASF82:
+ 1442 0609 70657269 		.ascii	"periDivCmdPaTypeSelPos\000"
+ 1442      44697643 
+ 1442      6D645061 
+ 1442      54797065 
+ 1442      53656C50 
+ 1443              	.LASF105:
+ 1444 0620 63707573 		.ascii	"cpussRam2Ctl0\000"
+ 1444      7352616D 
+ 1444      3243746C 
+ 1444      3000
+ 1445              	.LASF73:
+ 1446 062e 64775374 		.ascii	"dwStatusChIdxPos\000"
+ 1446      61747573 
+ 1446      43684964 
+ 1446      78506F73 
+ 1446      00
+ 1447              	.LASF55:
+ 1448 063f 75646250 		.ascii	"udbPresent\000"
+ 1448      72657365 
+ 1448      6E7400
+ 1449              	.LASF128:
+ 1450 064a 63795F65 		.ascii	"cy_en_ble_conn_state_t\000"
+ 1450      6E5F626C 
+ 1450      655F636F 
+ 1450      6E6E5F73 
+ 1450      74617465 
+ 1451              	.LASF35:
+ 1452 0661 666C6173 		.ascii	"flashcVersion\000"
+ 1452      68635665 
+ 1452      7273696F 
+ 1452      6E00
+ 1453              	.LASF31:
+ 1454 066f 63727970 		.ascii	"cryptoBase\000"
+ 1454      746F4261 
+ 1454      736500
+ 1455              	.LASF52:
+ 1456 067a 736D6966 		.ascii	"smifDeviceNr\000"
+ 1456      44657669 
+ 1456      63654E72 
+ 1456      00
+ 1457              	.LASF154:
+ 1458 0687 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1458      43313120 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 32
+
+
+ 1458      352E342E 
+ 1458      31203230 
+ 1458      31363036 
+ 1459 06ba 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 1459      20726576 
+ 1459      6973696F 
+ 1459      6E203233 
+ 1459      37373135 
+ 1460 06ed 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
+ 1460      70202D6D 
+ 1460      6670753D 
+ 1460      66707634 
+ 1460      2D73702D 
+ 1461 0720 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 1461      6F6E7320 
+ 1461      2D666661 
+ 1461      742D6C74 
+ 1461      6F2D6F62 
+ 1462              	.LASF61:
+ 1463 073a 666C6173 		.ascii	"flashWriteDelay\000"
+ 1463      68577269 
+ 1463      74654465 
+ 1463      6C617900 
+ 1464              	.LASF127:
+ 1465 074a 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DISCOVERED\000"
+ 1465      4C455F43 
+ 1465      4F4E4E5F 
+ 1465      53544154 
+ 1465      455F434C 
+ 1466              	.LASF109:
+ 1467 076e 666C6F61 		.ascii	"float\000"
+ 1467      7400
+ 1468              	.LASF74:
+ 1469 0774 64775374 		.ascii	"dwStatusChIdxMsk\000"
+ 1469      61747573 
+ 1469      43684964 
+ 1469      784D736B 
+ 1469      00
+ 1470              	.LASF147:
+ 1471 0785 63795F64 		.ascii	"cy_device\000"
+ 1471      65766963 
+ 1471      6500
+ 1472              	.LASF102:
+ 1473 078f 63707573 		.ascii	"cpussRomCtl\000"
+ 1473      73526F6D 
+ 1473      43746C00 
+ 1474              	.LASF72:
+ 1475 079b 64774368 		.ascii	"dwChCtlPreemptablePos\000"
+ 1475      43746C50 
+ 1475      7265656D 
+ 1475      70746162 
+ 1475      6C65506F 
+ 1476              	.LASF25:
+ 1477 07b1 75646242 		.ascii	"udbBase\000"
+ 1477      61736500 
+ 1478              	.LASF125:
+ 1479 07b9 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_CHAR_DISCOVERING\000"
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 33
+
+
+ 1479      4C455F43 
+ 1479      4F4E4E5F 
+ 1479      53544154 
+ 1479      455F434C 
+ 1480              	.LASF145:
+ 1481 07e3 63616C6C 		.ascii	"callbackFunc\000"
+ 1481      6261636B 
+ 1481      46756E63 
+ 1481      00
+ 1482              	.LASF130:
+ 1483 07f0 5F426F6F 		.ascii	"_Bool\000"
+ 1483      6C00
+ 1484              	.LASF20:
+ 1485 07f6 696E7433 		.ascii	"int32_t\000"
+ 1485      325F7400 
+ 1486              	.LASF4:
+ 1487 07fe 756E7369 		.ascii	"unsigned char\000"
+ 1487      676E6564 
+ 1487      20636861 
+ 1487      7200
+ 1488              	.LASF68:
+ 1489 080c 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
+ 1489      6843746C 
+ 1489      4D61696E 
+ 1489      57733446 
+ 1489      72657100 
+ 1490              	.LASF142:
+ 1491 0820 63686172 		.ascii	"charHandle\000"
+ 1491      48616E64 
+ 1491      6C6500
+ 1492              	.LASF143:
+ 1493 082b 63795F73 		.ascii	"cy_stc_ble_diss_t\000"
+ 1493      74635F62 
+ 1493      6C655F64 
+ 1493      6973735F 
+ 1493      7400
+ 1494              	.LASF156:
+ 1495 083d 433A5C55 		.ascii	"C:\\Users\\seeho\\Documents\\PSoC Creator\\PSoC6_10"
+ 1495      73657273 
+ 1495      5C736565 
+ 1495      686F5C44 
+ 1495      6F63756D 
+ 1496 086b 315C4E6F 		.ascii	"1\\Novela-BLE-Basic-3-3custom.cydsn\000"
+ 1496      76656C61 
+ 1496      2D424C45 
+ 1496      2D426173 
+ 1496      69632D33 
+ 1497              	.LASF79:
+ 1498 088e 70657269 		.ascii	"periDivCmdDivSelMsk\000"
+ 1498      44697643 
+ 1498      6D644469 
+ 1498      7653656C 
+ 1498      4D736B00 
+ 1499              	.LASF131:
+ 1500 08a2 43595F42 		.ascii	"CY_BLE_DIS_MANUFACTURER_NAME\000"
+ 1500      4C455F44 
+ 1500      49535F4D 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 34
+
+
+ 1500      414E5546 
+ 1500      41435455 
+ 1501              	.LASF50:
+ 1502 08bf 73727373 		.ascii	"srssNumHfroot\000"
+ 1502      4E756D48 
+ 1502      66726F6F 
+ 1502      7400
+ 1503              	.LASF63:
+ 1504 08cd 666C6173 		.ascii	"flashEraseDelay\000"
+ 1504      68457261 
+ 1504      73654465 
+ 1504      6C617900 
+ 1505              	.LASF21:
+ 1506 08dd 75696E74 		.ascii	"uint32_t\000"
+ 1506      33325F74 
+ 1506      00
+ 1507              	.LASF2:
+ 1508 08e6 6C6F6E67 		.ascii	"long double\000"
+ 1508      20646F75 
+ 1508      626C6500 
+ 1509              	.LASF16:
+ 1510 08f2 63686172 		.ascii	"char\000"
+ 1510      00
+ 1511              	.LASF40:
+ 1512 08f7 70726F74 		.ascii	"protVersion\000"
+ 1512      56657273 
+ 1512      696F6E00 
+ 1513              	.LASF103:
+ 1514 0903 63707573 		.ascii	"cpussRam0Ctl0\000"
+ 1514      7352616D 
+ 1514      3043746C 
+ 1514      3000
+ 1515              	.LASF157:
+ 1516 0911 63795F62 		.ascii	"cy_ble_diss\000"
+ 1516      6C655F64 
+ 1516      69737300 
+ 1517              	.LASF8:
+ 1518 091d 5F5F7569 		.ascii	"__uint16_t\000"
+ 1518      6E743136 
+ 1518      5F7400
+ 1519              	.LASF152:
+ 1520 0928 63795F62 		.ascii	"cy_ble_pendingFlashWrite\000"
+ 1520      6C655F70 
+ 1520      656E6469 
+ 1520      6E67466C 
+ 1520      61736857 
+ 1521              	.LASF84:
+ 1522 0941 70657269 		.ascii	"periDiv16CtlOffset\000"
+ 1522      44697631 
+ 1522      3643746C 
+ 1522      4F666673 
+ 1522      657400
+ 1523              	.LASF138:
+ 1524 0954 43595F42 		.ascii	"CY_BLE_DIS_REG_CERT_DATA\000"
+ 1524      4C455F44 
+ 1524      49535F52 
+ 1524      45475F43 
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 35
+
+
+ 1524      4552545F 
+ 1525              	.LASF10:
+ 1526 096d 5F5F696E 		.ascii	"__int32_t\000"
+ 1526      7433325F 
+ 1526      7400
+ 1527              	.LASF149:
+ 1528 0977 63795F62 		.ascii	"cy_ble_advState\000"
+ 1528      6C655F61 
+ 1528      64765374 
+ 1528      61746500 
+ 1529              	.LASF37:
+ 1530 0987 6873696F 		.ascii	"hsiomVersion\000"
+ 1530      6D566572 
+ 1530      73696F6E 
+ 1530      00
+ 1531              	.LASF134:
+ 1532 0994 43595F42 		.ascii	"CY_BLE_DIS_HARDWARE_REV\000"
+ 1532      4C455F44 
+ 1532      49535F48 
+ 1532      41524457 
+ 1532      4152455F 
+ 1533              	.LASF9:
+ 1534 09ac 73686F72 		.ascii	"short unsigned int\000"
+ 1534      7420756E 
+ 1534      7369676E 
+ 1534      65642069 
+ 1534      6E7400
+ 1535              	.LASF70:
+ 1536 09bf 64774368 		.ascii	"dwChSize\000"
+ 1536      53697A65 
+ 1536      00
+ 1537              	.LASF106:
+ 1538 09c8 69706353 		.ascii	"ipcStructSize\000"
+ 1538      74727563 
+ 1538      7453697A 
+ 1538      6500
+ 1539              	.LASF133:
+ 1540 09d6 43595F42 		.ascii	"CY_BLE_DIS_SERIAL_NUMBER\000"
+ 1540      4C455F44 
+ 1540      49535F53 
+ 1540      45524941 
+ 1540      4C5F4E55 
+ 1541              	.LASF144:
+ 1542 09ef 64697373 		.ascii	"diss\000"
+ 1542      00
+ 1543              	.LASF45:
+ 1544 09f4 63707573 		.ascii	"cpussIpc0Irq\000"
+ 1544      73497063 
+ 1544      30497271 
+ 1544      00
+ 1545              	.LASF88:
+ 1546 0a01 6770696F 		.ascii	"gpioPrtCfgOffset\000"
+ 1546      50727443 
+ 1546      66674F66 
+ 1546      66736574 
+ 1546      00
+ 1547              	.LASF141:
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 36
+
+
+ 1548 0a12 73657276 		.ascii	"serviceHandle\000"
+ 1548      69636548 
+ 1548      616E646C 
+ 1548      6500
+ 1549              	.LASF120:
+ 1550 0a20 43595F42 		.ascii	"CY_BLE_CONN_STATE_DISCONNECTED\000"
+ 1550      4C455F43 
+ 1550      4F4E4E5F 
+ 1550      53544154 
+ 1550      455F4449 
+ 1551              	.LASF150:
+ 1552 0a3f 63795F62 		.ascii	"cy_ble_connHandle\000"
+ 1552      6C655F63 
+ 1552      6F6E6E48 
+ 1552      616E646C 
+ 1552      6500
+ 1553              	.LASF47:
+ 1554 0a51 63707573 		.ascii	"cpussNotConnectedIrq\000"
+ 1554      734E6F74 
+ 1554      436F6E6E 
+ 1554      65637465 
+ 1554      64497271 
+ 1555              	.LASF117:
+ 1556 0a66 43595F42 		.ascii	"CY_BLE_ADV_STATE_ADVERTISING\000"
+ 1556      4C455F41 
+ 1556      44565F53 
+ 1556      54415445 
+ 1556      5F414456 
+ 1557              	.LASF115:
+ 1558 0a83 43595F42 		.ascii	"CY_BLE_ADV_STATE_STOPPED\000"
+ 1558      4C455F41 
+ 1558      44565F53 
+ 1558      54415445 
+ 1558      5F53544F 
+ 1559              	.LASF17:
+ 1560 0a9c 75696E74 		.ascii	"uint8_t\000"
+ 1560      385F7400 
+ 1561              	.LASF94:
+ 1562 0aa4 63707573 		.ascii	"cpussCm4StatusOffset\000"
+ 1562      73436D34 
+ 1562      53746174 
+ 1562      75734F66 
+ 1562      66736574 
+ 1563              	.LASF87:
+ 1564 0ab9 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
+ 1564      50727449 
+ 1564      6E747243 
+ 1564      66674F66 
+ 1564      66736574 
+ 1565              	.LASF135:
+ 1566 0ace 43595F42 		.ascii	"CY_BLE_DIS_FIRMWARE_REV\000"
+ 1566      4C455F44 
+ 1566      49535F46 
+ 1566      49524D57 
+ 1566      4152455F 
+ 1567              	.LASF98:
+ 1568 0ae6 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
+ARM GAS  C:\Users\seeho\AppData\Local\Temp\ccibeNeo.s 			page 37
+
+
+ 1568      73547269 
+ 1568      6D526F6D 
+ 1568      43746C4F 
+ 1568      66667365 
+ 1569              	.LASF111:
+ 1570 0afc 62644861 		.ascii	"bdHandle\000"
+ 1570      6E646C65 
+ 1570      00
+ 1571              	.LASF48:
+ 1572 0b05 73727373 		.ascii	"srssNumClkpath\000"
+ 1572      4E756D43 
+ 1572      6C6B7061 
+ 1572      746800
+ 1573              	.LASF34:
+ 1574 0b14 64775665 		.ascii	"dwVersion\000"
+ 1574      7273696F 
+ 1574      6E00
+ 1575              	.LASF30:
+ 1576 0b1e 69706342 		.ascii	"ipcBase\000"
+ 1576      61736500 
+ 1577              	.LASF81:
+ 1578 0b26 70657269 		.ascii	"periDivCmdPaDivSelPos\000"
+ 1578      44697643 
+ 1578      6D645061 
+ 1578      44697653 
+ 1578      656C506F 
+ 1579              	.LASF62:
+ 1580 0b3c 666C6173 		.ascii	"flashProgramDelay\000"
+ 1580      6850726F 
+ 1580      6772616D 
+ 1580      44656C61 
+ 1580      7900
+ 1581              	.LASF121:
+ 1582 0b4e 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DISCONNECTED_DISCOVERED\000"
+ 1582      4C455F43 
+ 1582      4F4E4E5F 
+ 1582      53544154 
+ 1582      455F434C 
+ 1583              	.LASF59:
+ 1584 0b7f 666C6173 		.ascii	"flashRwwRequired\000"
+ 1584      68527777 
+ 1584      52657175 
+ 1584      69726564 
+ 1584      00
+ 1585              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,0 +1,14 @@
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\CE212736_PSoC6BLE_FindMe01.cydsn\CE220818_I2C_Master_High_Level01.cydsn\CE220818_I2C_Master_High_Level01.cyprj|899ea1e9-3344-4a97-b3be-e6fb5de6d9d4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|a392fc39-430e-40f5-8af3-f270c9aac373
+C:\Users\seeho\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|98d2959e-fb3d-4483-809e-b14e1d0cb11b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|4e887106-0bad-4d6c-8cfe-12f0619a9720
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|3f336139-c1be-4645-84fc-c25cbbbcc8d0
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|05e90755-1f0b-4b0b-a07f-46554ff701df
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\CE212736_PSoC6BLE_FindMe01.cydsn\CE217631_BLE_Alert_Notification01.cydsn\CE217631_BLE_Alert_Notification01.cyprj|1953a661-98d4-4337-a9b1-792f30dfc8ec
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\CE212736_PSoC6BLE_FindMe01.cydsn\CE215119_BLE_Battery_Level02.cydsn\CE215119_BLE_Battery_Level02.cyprj|2c258c2a-1085-4c29-8037-7223a3bed84e
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\CE212736_PSoC6BLE_FindMe01.cydsn\2-1-BasicUART.cydsn\2-1-BasicUART.cyprj|e0fa991e-4e75-474b-aa0c-d1979b64d57a
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\CE212736_PSoC6BLE_FindMe01.cydsn\CE223549_IPC_Semaphore01.cydsn\CE223549_IPC_Semaphore01.cyprj|e870e9c4-da9f-4d87-9052-c025acfcf82c
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\CE212736_PSoC6BLE_FindMe01.cydsn\UART_Low_Level_DMA01.cydsn\UART_Low_Level_DMA01.cyprj|d3a372a5-5bb1-44d0-9f1b-9e3f3b12b495
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\CE212736_PSoC6BLE_FindMe01.cydsn\CE216795_DualCoreSharedMemory01.cydsn\CE216795_DualCoreSharedMemory01.cyprj|1ebc78dd-e759-4cd4-9bc7-9fcf0a5791c3
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\CE212736_PSoC6BLE_FindMe01.cydsn\AccGyroDisplay.cydsn\AccGyroDisplay.cyprj|d269d929-3ffb-49cb-b9b7-1fea3484b05b
+C:\Users\seeho\Documents\PSoC Creator\PSoC6_101\Novela-BLE-Controls-1.cydsn\Novela-BLE-Controls-1.cyprj|494a6d52-57d4-4610-8d59-4f7b76c78208
